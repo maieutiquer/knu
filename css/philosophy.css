@@ -1,0 +1,123 @@
+
+.philosophy-page {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    
+    min-height: 1077px;
+    
+    color: #fff;
+}
+.philosophy-page p {
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+.konseptnu,
+.charity-percentage,
+.direct-help {
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.konseptnu-desc{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    width: 426px;
+    min-height: 779px;    
+}
+    .konseptnu{
+        
+        min-height: 550px;
+        
+        background-color: #4d4d4d;
+    }
+    .konseptnu > p{
+        line-height: 31px;
+    }
+    .konseptnu-logo{
+        background-image: url(../images/sprites-philosophie.png);
+    
+        width: 427px;
+        height: 207px;        
+    }
+.charity-percentage-desc{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    
+    width: 426px; 
+    min-height: 779px;
+}
+    .charity-percentage{
+        min-height: 333px;
+        
+        background-color: #00b0a0;
+    }
+    .charity-percentage > p{
+        line-height: 35px;
+    }
+    .charity-percentage-kofc{
+        background-image: url(../images/sprites-philosophie.png);
+        background-position: 0px -207px;
+        
+        width: 426px;
+        height: 426px;
+    }
+.direct-help-desc{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: center;
+    width: 876px;
+}
+    .direct-help{
+        width: 576px;
+        min-height: 276px;
+        
+        background-color: #00b0a0;
+    }
+    .direct-help > p{
+        line-height: 33px;
+    }
+    .direct-help-percentage{    
+        background-image: url(../images/sprites-philosophie.png);
+        background-position: 0px -633px;
+        
+        width: 276px;
+        height: 276px;
+    }
+
+@media screen and (max-width: 928px) {
+    .philosophy-page {
+        justify-content: center;
+    }
+    
+    .direct-help-desc {
+        justify-content: center;        
+    }
+    
+    .konseptnu, .konseptnu-logo, .charity-percentage, .charity-percentage-kofc, .direct-help-percentage {
+        margin-bottom: 24px;
+    }
+}
+@media screen and (max-width: 624px) {
+    
+    .konseptnu-logo {
+        background-size: 100%;
+        height: 133px;
+    }
+    
+    .charity-percentage-kofc {
+        background-position: 0px -132px;
+        height: 277px;
+        background-size: 100%;
+    }
+}

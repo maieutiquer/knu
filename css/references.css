@@ -1,0 +1,92 @@
+.references_content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: center;
+    
+    width: 876px;
+    height: 574px;
+    
+    color: #fff;
+}
+    .references-intro{
+        width: 276px;
+        height: 574px;
+        
+        background-color: #8064a2;
+        
+        line-height: 37px;
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+    .references-intro > p{
+        padding: 11px 15px 0px 15px;
+    }
+    .central_column{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-content: space-around;
+        
+        width: 276px;
+        height: 574px;
+    }
+        #visual-konsept{
+            width: 276px;
+            height: 276px;
+
+            background-image: url(../images/sprites.jpg);
+            background-position: 0px -552px;
+            background-size: 276px 828px;
+        }
+        .references-contact-us{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            
+            width: 276px;
+            height: 276px;
+            
+            background-color: #4d4d4d;
+            
+            font-size: 32px;
+            
+            outline: 0px solid #ccc;
+            transition: .05s outline-width linear;
+        }
+        .references-contact-us:hover,
+        .references-contact-us:focus {
+            outline-width: 3px;
+            transition: .05s outline-width linear;
+        }
+    .areas-of-activity{
+        width: 276px;
+        height: 574px;
+        padding: 10px 16px 0px;
+        box-sizing: border-box;
+        
+        background-color: #8064a2;
+    }
+    .areas-of-activity h2 {
+        margin: 0;
+    }
+    #areas-of-activity-list{
+        margin: 0;
+        padding: 0;
+        
+        font-size: 23px;
+        text-decoration: none;
+        list-style: none; 
+        line-height: 36px;
+        letter-spacing: 1px;
+    }
+    #areas-of-activity-list > li{
+        margin-left: 12px;
+    }
+    #areas-of-activity-list > li:before{
+        content: "›";
+        position: absolute;
+        margin-left: -12px;
+    }

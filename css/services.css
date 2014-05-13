@@ -1,0 +1,120 @@
+/***
+
+prestations
+
+***/
+.prestations_contatiner{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    
+    width: 876px;
+    min-height: 535px;
+}
+#services-list-holder{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    width: 876px;
+    min-height: 112px;
+}
+.service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 112px;
+    height: 112px;
+    
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    
+    outline: 0px solid #ccc;
+    transition: .05s outline-width linear;
+}
+.service:hover,
+.service:focus {
+    outline-width: 3px;
+    transition: .05s outline-width linear;
+}
+.service-comm{
+    background-color: #8064a2;
+}
+.service-event{
+    background-color: #c95a99;
+}
+.service-marketing{
+    background-color: #c00000;
+}
+.service-advertizing{
+    background-color: #e2901a;
+}
+.service-design{
+    background-color: #9bbb59;
+}
+.service-pr{
+    background-color: #00b0a0;
+}
+.service-internet{
+    background-color: #0070c0;
+}
+.services-intro{
+    width: 100%;
+    padding: 7px 10px 0px 16px;
+    
+    background-color: #4d4d4d; 
+
+    color: white;
+    font-size: 26px; 
+    line-height: 40px; 
+}
+.services-intro > p:first-of-type{
+    padding-bottom: 30px;
+}
+.services-intro > p:nth-of-type(2) {
+    padding-bottom: 5px;
+}
+
+.prestations_contatiner {
+    /*align-content: initial;*/
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0){
+    .services-intro > p{
+        /*font-size: 26px;*/
+    }
+}
+
+@media screen and (min-width: 928px) {
+    #services-list-holder {
+        margin-bottom: 12px;
+    }
+}
+
+@media screen and (max-width: 928px) {
+
+    
+    #services-list-holder li {
+        margin-bottom: 12px;
+    }
+}
+
+
+@media screen and (max-width: 624px) {
+    
+    #services-list-holder {
+        justify-content: space-around;
+    }
+    #services-list-holder li {
+        margin-bottom: 24px;
+    }
+}

@@ -1,0 +1,98 @@
+#select-menu-holder{
+    display: none;
+} 
+#menu-holder{
+    width: 600px;
+    padding: 0px;
+} 
+#nav{
+    display: block;
+    padding: 34px 0 0;
+    margin: 0;
+    
+    list-style: none;
+}
+    #nav > li{
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 30px;
+        
+        text-align: center;
+    }
+    #nav > li:hover > a,
+    #nav > li.active > a{
+        font-family: "eras demi";
+    }
+#nav-agency {
+    position: relative;
+    width: 55px;
+}
+    #nav-agency:hover > a,
+    #nav-agency.active > a{
+        color: #8064a2;
+    }
+    #nav-agency.active .nav-child{
+        display: inline;
+        padding: 0px;
+        position: absolute;
+        top: 36px;
+        left: 0px;
+        
+        color: none;
+        list-style: none;
+    }
+    #nav-agency.active .nav-child:hover,
+    #nav-agency.active .nav-child .active    {
+        font-family: "eras demi";
+        color: #8064a2;
+    }
+#nav-services {
+  width: 84px;
+}
+    #nav-services:hover,
+    #nav-services.active{
+        color: #c00000;
+    }
+#nav-team {
+  width: 52px;
+}
+    #nav-team:hover,
+    #nav-team.active{
+        color: #0070c0;
+    }
+#nav-philosophy {
+  width: 87px;
+}
+    #nav-shopk2:hover{
+        color: #e2901a;
+    }
+#nav-shopk2 {
+  width: 57px;
+}
+    #nav-kofc:hover{
+        color: #9bbb59;
+        width: 70px;
+    }
+#nav-kofc {
+  width: 70px;
+  text-align: left !important;
+}
+    #nav-philosophy:hover,
+    #nav-philosophy.active{
+        color: #00b0a0;
+    }
+.nav-child{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,274 @@
+
+/***
+    fonts
+***/
+
+@font-face {
+    font-family: 'eras light';
+    src: url(../fonts/eraslght.woff);
+}
+
+@font-face {
+    font-family: 'eras demi';
+    src: url(../fonts/erasdemi.woff);
+}
+
+
+/***
+    general
+***/
+
+html {
+    overflow-y: scroll;
+}
+body {
+    background-color: #f2f2f2;
+    color: #4d4d4d;
+    font-family: "eras light";
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+h1,
+h2,
+dt {
+    min-height: 28px;
+    margin: 16px 0 0;
+    font-family: "eras demi", arial, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    letter-spacing: 3.5px;
+}
+dt {
+    margin: 16px 0 -4px 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/***
+    header
+***/
+
+#header {
+    display: flex; 
+    width: 100%;  
+    min-height: 149px;
+    z-index: 1;
+    
+    background-color: #fff;
+    box-shadow: 0 1px 14px #888;
+}
+    #header-inner {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto; 
+        width: 876px;
+        height: 204px;
+    }
+#logo {
+    width: 276px;
+    z-index: 2;
+    padding-top: 42px;
+    height: 179px;
+    box-sizing: border-box;
+}
+    #logo p {
+        display: block;
+        padding: 2px 0 0;
+        
+        color: #6d6e71;
+        font-size: 24px;
+        letter-spacing: .2px;
+    }
+#slogan-holder {
+    padding-top: 50px;
+    
+    color: #4d4d4d;
+    letter-spacing: 7px;
+    
+    font-size: 35px;
+}
+#slogan-holder span {
+    display: block;
+    width: 430px;
+}
+#slogan-1 {
+    font-family: 'eras demi', arial, sans-serif;
+}
+#slogan-2 {
+    margin-top: -3px;
+    text-align: right;
+}
+
+
+/***
+    content
+***/
+
+#main{
+    display: flex;
+    flex-flow: row wrap; 
+    align-items: center;
+    margin: 22px auto 10px auto;
+    width: 876px;
+}
+
+.homepage-links-holder {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    
+    min-height: 574px;
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+.homepage-links-holder a{
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+    
+    font-size: 32px;
+}
+.homepage-links-holder a,
+.multiple-links-holder{
+    
+    width: 276px;
+    height: 276px;
+    
+    color: white;
+    outline: 0px solid #ccc;
+    transition: .05s outline-width linear;
+}
+.homepage-links-holder a:hover,
+.homepage-links-holder a:focus  {
+    outline-width: 3px;
+    transition: .05s outline-width linear;
+}
+#logo > span,
+.ikon-link > span,
+.welcome-link > span,
+.team-photo-link > span{
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+.agency-link{
+    background-color: #8064a2; 
+}
+.ikon-link{
+    background-image: url(../images/sprites.png);
+    background-position: 0px -104px;
+}
+.multiple-links-holder{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+    .multiple-links-holder a{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        
+        text-align: center;
+        font-size: 24px;
+        width: 126px;
+        height: 126px;
+        
+        outline: 0px solid #ccc;
+        transition: .05s outline-width linear;
+    }
+    .multiple-links-holder a:hover,
+    .multiple-links-holder a:focus  {
+        outline-width: 3px;
+        transition: .05s outline-width linear;
+    }
+        .human-konsept-link{
+            margin: 0px 12px 12px 0px;
+        
+            background-color: #1f497d;
+        }
+        .kofc-link{
+            margin: 0px 0px 12px 12px;
+            background-color: #9bbb59;
+        }
+        .philosophy-link{
+            margin: 12px 12px 0px 0px;
+            background-color: #00b0a0;
+        }
+        .shopk2-link{
+            margin: 12px 0px 0px 12px;
+            background-color: #e2901a;
+        }
+.welcome-link{
+    background-image: url(../images/sprites.jpg);
+    background-size: 360px 912px;
+    background-position: -42px -15px;
+}
+.services-link{
+    background-color: #c00000; 
+}
+.team-photo-link{
+    background-image: url(../images/sprites.jpg);
+    background-position: 0px -276px;
+}
+
+
+@media screen and (max-width: 928px) {
+    
+    #main {
+        width: 605px;
+    } 
+    
+    #footer, #address {
+        width: 605px;
+    }
+    
+    .homepage-links-holder {
+        justify-content: space-around;
+    }
+    
+    .multiple-links-holder {
+        padding: 24px 0;
+    }
+}
+
+@media screen and (max-width: 624px) {
+    
+    #main {
+        width: 276px;
+    }
+    
+    #footer, #address {
+        width: 276px;
+    }
+    .agency-link, .welcome-link, .services-link {
+        margin-bottom: 24px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

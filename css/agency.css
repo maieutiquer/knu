@@ -1,0 +1,95 @@
+.agency_container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center; 
+    
+    width: 876px;
+}
+.presentation-holder{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center; 
+
+    width: 276px;
+    height: 574px;
+    
+    color: #fff; 
+}
+    .presentation{
+        display: block;
+        width: 276px;
+        height: 276px;
+
+        background-color: #8064a2;
+    }
+        .presentation > p{
+            display: block;
+            padding: 10px 23px 17px 17px;
+        
+            letter-spacing:0.5px;        
+            line-height: 43px; 
+            font-size: 26px;
+        }
+    .values-box{
+        width: 276px;
+        height: 276px;
+        
+        background-image: url(../images/sprites.png);
+        background-position: 0px -380px;
+    }
+        .values-box > ul{
+            display: block;
+            margin: 0px;
+            padding: 0px 8px 15px 19px;
+            
+            list-style-type: none;
+            line-height: 69px; 
+            font-size: 26px;
+        }
+            #value-ethics{
+                letter-spacing: 26px;
+            }    
+            #value-originality{
+                letter-spacing: 13px;
+            }
+            #value-consistency{
+                letter-spacing: 15px;
+            }
+            #value-pragmatism{
+                letter-spacing: 9.5px;
+            }
+.values-description{
+    width: 576px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    
+    background-color: #ffffff; 
+    
+    line-height: 20px;    
+}
+.values-description dl {
+    margin: 16px 0 14px;
+}
+.values-description dd {
+    margin: 0 0 5px 0;
+}
+
+
+@media screen and (max-width: 928px) {
+    .presentation-holder {
+        width: 576px;
+        height: auto;
+        margin-bottom: 24px;
+    }
+    
+}
+
+@media screen and (max-width: 624px) {
+    .presentation {
+        margin-bottom: 24px;
+    }
+}
