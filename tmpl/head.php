@@ -15,7 +15,6 @@
 <link rel="stylesheet" href="css/agency.css">
 <link rel="stylesheet" href="css/references.css">
 <link rel="stylesheet" href="css/services.css">
-<link rel="stylesheet" href="css/services-descriptions.css">
 <link rel="stylesheet" href="css/team.css">
 <link rel="stylesheet" href="css/philosophy.css">
 <link rel="stylesheet" href="css/responsive.css">

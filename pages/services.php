@@ -15,6 +15,8 @@
     </div>
 </div>
 
-<div id="services-descriptions-holder">
-<?php include 'services-descriptions.php'; ?>
+<?php /* // TODO: call services details
+<div id="services-details-holder">
+<?php include 'services-details.php'; ?>
 </div>
+*/

@@ -57,8 +57,8 @@ switch($page) {
   case "services":
     $included_page = pages_dir."/services.php";
     $nav_services_class = " active";
-    $inlineScripts.='
-document.getElementById("services-descriptions-holder").style.display = "none";';
+    // $inlineScripts.='
+// document.getElementById("services-descriptions-holder").style.display = "none";';
     $scripts.= $includeJQuery;
     $scripts.= $includePopup;
     break;
