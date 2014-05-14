@@ -1,8 +1,8 @@
 <?php defined('kexec') or die('Restricted access'); ?>
 <section class="philosophy-page">
-<article class="konseptnu-desc">
+<article class="konseptnu">
     <span class="konseptnu-logo"></span>
-    <div class="konseptnu">
+    <div class="konseptnu-desc">
         <h1>konsept.nu</h1>
         <p>
             konsept.nu regroupe plusieurs entités qui défendent les mêmes valeurs humaines.<br>
@@ -14,8 +14,8 @@
             en lien avec la nouvelle vision managériale que nous&nbsp;défendons.
     </div>
 </article>
-<article class="charity-percentage-desc">
-    <div class="charity-percentage">
+<article class="charity-percentage">
+    <div class="charity-percentage-desc">
         <h1>10&thinsp;% d’honoraires reversés</h1>
         <p>
             L’altruisme et le sens de la responsabilité qui animent konsept.nu se concrétisent notamment
@@ -25,9 +25,9 @@
     </div>
     <span class="charity-percentage-kofc"></span>
 </article>
-<article class="direct-help-desc">
+<article class="direct-help">
     <span class="direct-help-percentage"></span>
-    <div class="direct-help">
+    <div class="direct-help-desc">
         <h1>100&#8239;% don - 0&#8239;%&nbsp;frais</h1>
         <p>
             La confiance doit être la base de toute relation si l’on souhaite que celle-ci puisse s’inscrire dans le temps. 

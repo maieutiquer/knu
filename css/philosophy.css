@@ -15,14 +15,14 @@
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
-.konseptnu,
-.charity-percentage,
-.direct-help {
+.konseptnu-desc,
+.charity-percentage-desc,
+.direct-help-desc {
     padding: 0 15px;
     box-sizing: border-box;
 }
 
-.konseptnu-desc{
+.konseptnu{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -31,13 +31,13 @@
     width: 426px;
     min-height: 779px;    
 }
-    .konseptnu{
+    .konseptnu-desc{
         
         min-height: 550px;
         
         background-color: #4d4d4d;
     }
-    .konseptnu > p{
+    .konseptnu-desc > p{
         line-height: 31px;
     }
     .konseptnu-logo{
@@ -46,7 +46,7 @@
         width: 427px;
         height: 207px;        
     }
-.charity-percentage-desc{
+.charity-percentage{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -56,12 +56,12 @@
     width: 426px; 
     min-height: 779px;
 }
-    .charity-percentage{
+    .charity-percentage-desc{
         min-height: 333px;
         
         background-color: #00b0a0;
     }
-    .charity-percentage > p{
+    .charity-percentage-desc > p{
         line-height: 35px;
     }
     .charity-percentage-kofc{
@@ -71,7 +71,7 @@
         width: 426px;
         height: 426px;
     }
-.direct-help-desc{
+.direct-help{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -79,13 +79,13 @@
     align-items: center;
     width: 876px;
 }
-    .direct-help{
+    .direct-help-desc{
         width: 576px;
         min-height: 276px;
         
         background-color: #00b0a0;
     }
-    .direct-help > p{
+    .direct-help-desc > p{
         line-height: 33px;
     }
     .direct-help-percentage{    
@@ -102,22 +102,22 @@
         justify-content: center;
     }
     
-    .direct-help-desc {
+    .direct-help {
         justify-content: center;        
     }
-    .charity-percentage {
+    .charity-percentage-desc {
         order: 2;
     }
     
-    .konseptnu, .konseptnu-logo, .charity-percentage, .charity-percentage-kofc, .direct-help-percentage {
+    .konseptnu-desc, .konseptnu-logo, .charity-percentage-desc, .charity-percentage-kofc, .direct-help-percentage {
         margin-bottom: 24px;
     }
 }
 @media screen and (max-width: 924px) and (min-width: 625px) {
-    .konseptnu-desc,
     .konseptnu,
-    .charity-percentage-desc,
-    .charity-percentage {
+    .konseptnu-desc,
+    .charity-percentage,
+    .charity-percentage-desc {
         width: auto;
         min-height: initial;
     }
