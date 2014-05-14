@@ -40,7 +40,7 @@
         line-height: 31px;
     }
     .konseptnu-logo{
-        background-image: url(../images/sprites-philosophie.png);
+        background-image: url(../images/sprites_philosophie.png);
     
         width: 427px;
         height: 207px;        
@@ -64,7 +64,7 @@
         line-height: 35px;
     }
     .charity-percentage-kofc{
-        background-image: url(../images/sprites-philosophie.png);
+        background-image: url(../images/sprites_philosophie.png);
         background-position: 0px -207px;
         
         width: 426px;
@@ -88,8 +88,9 @@
         line-height: 33px;
     }
     .direct-help-percentage{    
-        background-image: url(../images/sprites-philosophie.png);
-        background-position: 0px -633px;
+        background-image: url(../images/sprites_philosophie.png);
+        background-position: 0px -410px;
+        background-size: 276px;
         
         width: 276px;
         height: 276px;
