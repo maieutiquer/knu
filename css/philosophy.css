@@ -13,6 +13,7 @@
 .philosophy-page p {
     font-size: 19px;
     letter-spacing: 1px;
+    margin-bottom: 10px;
 }
 .konseptnu,
 .charity-percentage,
@@ -110,6 +111,32 @@
     
     .konseptnu, .konseptnu-logo, .charity-percentage, .charity-percentage-kofc, .direct-help-percentage {
         margin-bottom: 24px;
+    }
+}
+@media screen and (max-width: 924px) and (min-width: 625px) {
+    .konseptnu-desc,
+    .konseptnu,
+    .charity-percentage-desc,
+    .charity-percentage {
+        width: auto;
+        min-height: initial;
+    }
+    .konseptnu-logo,
+    .charity-percentage-kofc,
+    .direct-help-percentage {
+        background-size: 576px;
+        
+        width: 576px;
+        height: 576px;
+    }
+    .konseptnu-logo {
+        height: 280px;
+    }
+    .charity-percentage-kofc {
+        background-position: 0 -280px;
+    }
+    .direct-help-percentage {
+        background-position: 0 -856px;
     }
 }
 @media screen and (max-width: 624px) {
