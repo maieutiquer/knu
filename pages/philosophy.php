@@ -28,7 +28,7 @@
 <article class="direct-help-desc">
     <span class="direct-help-percentage"></span>
     <div class="direct-help">
-        <h1>100&thinsp;% don - 0&thinsp;% frais</h1>
+        <h1>100&#8239;% don - 0&#8239;%&nbsp;frais</h1>
         <p>
             La confiance doit être la base de toute relation si l’on souhaite que celle-ci puisse s’inscrire dans le temps. 
             Ainsi, l’association humanitaire konsept of Charity est basée sur notre philosophie unique «&nbsp;100% don – 0% frais&nbsp;». 
