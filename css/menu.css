@@ -89,6 +89,7 @@ li#nav-kofc {
 @media screen and (max-width: 918px) {
     #nav {
         margin: 0 auto;
+        padding: 30px 0;
     }
     #menu-holder {
         margin: 0 auto;
