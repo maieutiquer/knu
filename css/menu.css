@@ -86,18 +86,21 @@ li#nav-kofc {
     display: none;
 }
 
-@media screen and (max-width: 918px) {
-    #nav {
-        margin: 0 auto;
-        padding: 30px 0;
-    }
+@media screen and (max-width: 924px) {
     #menu-holder {
         margin: 0 auto;
         width: 576px;
     }
+    #nav {
+        margin: 0 auto;
+        padding: 24px 0;
+    }
 }
 
 @media screen and (max-width: 624px) {
+    #menu-holder {
+        width: 276px;
+    }
     .nav-child {
         display: inline;
     }
@@ -106,7 +109,7 @@ li#nav-kofc {
         display: block;
         width: auto;
         margin-left: 30px;
-        margin: 10px auto;
+        margin: 12px auto;
         text-align: center;
     }
     #nav a {

@@ -297,4 +297,8 @@ p {
     .agency-link, .welcome-link, .services-link {
         margin-bottom: 24px;
     }
+    
+    #social-icons > li {
+        margin: 7px;
+    }
 }
