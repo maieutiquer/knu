@@ -174,7 +174,7 @@
 }
 
 
-@media screen and (max-width: 928px) {
+@media screen and (max-width: 924px) {
     .team-list {
         width: 575px;
     }
@@ -184,4 +184,3 @@
        margin-bottom: 24px;
     }
 }
-

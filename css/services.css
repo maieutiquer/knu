@@ -94,13 +94,13 @@ prestations
     }
 }
 
-@media screen and (min-width: 928px) {
+@media screen and (min-width: 924px) {
     #services-list-holder {
         margin-bottom: 12px;
     }
 }
 
-@media screen and (max-width: 928px) {
+@media screen and (max-width: 924px) {
 
     
     #services-list-holder li {

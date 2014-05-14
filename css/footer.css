@@ -1,6 +1,5 @@
 #footer{
     display: flex;
-    width: 876px;
     flex-flow: column wrap;
     justify-content: center;
     align-content: center;
@@ -13,8 +12,6 @@
     justify-content: space-between;
     align-content: space-around;
     align-items: flex-end;
-    
-    width: 876px;
     
     font-style: normal;font-size: 16px;
     letter-spacing: 0.5px;
@@ -46,7 +43,6 @@
     flex-flow: row wrap;
     justify-content: flex-end;
     
-    width: 876px;
     margin: 7px 0 0;
     padding:0;
     list-style: none;
@@ -81,4 +77,19 @@
 }
 .social-icon:focus {
     outline-width: 2px;
+}
+
+@media screen and (max-width: 924px) and (min-width: 624px) {
+    #address, #social-icons {
+        width: 576px;
+    }
+    #footer {
+        align-content: initial;
+    }
+}
+
+@media screen and (min-width: 924px) {
+    #address, #social-icons {
+        width: 876px;
+    }
 }

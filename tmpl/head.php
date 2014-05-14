@@ -17,4 +17,3 @@
 <link rel="stylesheet" href="css/services.css">
 <link rel="stylesheet" href="css/team.css">
 <link rel="stylesheet" href="css/philosophy.css">
-<link rel="stylesheet" href="css/responsive.css">

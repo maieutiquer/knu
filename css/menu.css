@@ -16,12 +16,24 @@
         display: inline-block;
         vertical-align: top;
         margin-left: 30px;
-        
         text-align: center;
     }
     #nav > li:hover > a,
     #nav > li.active > a{
         font-family: "eras demi";
+    }
+.nav-child{
+    display: none;
+    padding: 0px;
+    position: absolute;
+    top: 36px;
+    left: 0px;
+    
+    color: none;
+    list-style: none;
+}
+    .active .nav-child {
+        display: inline;
     }
 #nav-agency {
     position: relative;
@@ -31,18 +43,8 @@
     #nav-agency.active > a{
         color: #8064a2;
     }
-    #nav-agency.active .nav-child{
-        display: inline;
-        padding: 0px;
-        position: absolute;
-        top: 36px;
-        left: 0px;
-        
-        color: none;
-        list-style: none;
-    }
-    #nav-agency.active .nav-child:hover,
-    #nav-agency.active .nav-child .active    {
+    #nav-agency .nav-child li:hover,
+    #nav-agency .nav-child .active    {
         font-family: "eras demi";
         color: #8064a2;
     }
@@ -71,11 +73,10 @@
 }
     #nav-kofc:hover{
         color: #9bbb59;
-        width: 70px;
     }
-#nav-kofc {
+li#nav-kofc {
   width: 70px;
-  text-align: left !important;
+  text-align: left;
 }
     #nav-philosophy:hover,
     #nav-philosophy.active{
@@ -85,14 +86,34 @@
     display: none;
 }
 
+@media screen and (max-width: 918px) {
+    #nav {
+        margin: 0 auto;
+    }
+    #menu-holder {
+        margin: 0 auto;
+        width: 576px;
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 624px) {
+    .nav-child {
+        display: inline;
+    }
+    #nav li,
+    #nav .nav-child > li {
+        display: block;
+        width: auto;
+        margin-left: 30px;
+        margin: 10px auto;
+        text-align: center;
+    }
+    #nav a {
+        padding: 5px;
+    }
+    
+    #nav-agency .nav-child {
+        position: static;
+    }
+    
+}

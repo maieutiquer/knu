@@ -1,4 +1,4 @@
-.references_content{
+.references_content {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -6,7 +6,7 @@
     align-items: center;
     
     width: 876px;
-    height: 574px;
+    min-height: 574px;
     
     color: #fff;
 }
@@ -90,3 +90,16 @@
         position: absolute;
         margin-left: -12px;
     }
+    
+@media screen and (min-width: 624px) and (max-width: 918px) {
+    .references_content {
+        /*padding: 0 15px;*/
+    }
+}
+
+@media screen and (max-width: 624px) {
+    .references-intro,
+    .central_column{
+        margin-bottom: 24px;
+    }
+}
