@@ -102,9 +102,11 @@ prestations
 
 @media screen and (max-width: 924px) {
 
-    
+    #services-list-holder {
+        justify-content: flex-start;
+    }
     #services-list-holder li {
-        margin-bottom: 12px;
+        margin: 0 24px 22px 0;
     }
 }
 
