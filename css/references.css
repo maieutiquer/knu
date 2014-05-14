@@ -91,9 +91,12 @@
         margin-left: -12px;
     }
     
-@media screen and (min-width: 624px) and (max-width: 918px) {
-    .references_content {
-        /*padding: 0 15px;*/
+@media screen and (min-width: 625px) and (max-width: 918px) {
+    .references-intro {
+        width: 574px;
+        height: 276px;
+        margin-bottom: 22px;
+        line-height: 42px;
     }
 }
 
