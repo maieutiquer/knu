@@ -100,7 +100,7 @@ prestations
     }
 }
 
-@media screen and (max-width: 924px) {
+@media screen and (max-width: 924px) and (min-width: 625px) {
 
     #services-list-holder {
         justify-content: flex-start;
