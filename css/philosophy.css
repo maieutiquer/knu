@@ -13,7 +13,6 @@
 .philosophy-page p {
     font-size: 19px;
     letter-spacing: 1px;
-    margin-bottom: 10px;
 }
 .konseptnu-desc,
 .charity-percentage-desc,
@@ -101,7 +100,9 @@
     .philosophy-page {
         justify-content: center;
     }
-    
+    .philosophy-page p {
+        margin-bottom: 10px;
+    }
     .direct-help {
         justify-content: center;        
     }
