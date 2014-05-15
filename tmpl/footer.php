@@ -3,13 +3,19 @@
     <a id="homepage-link-footer" href=".">
         <span itemprop="name">konsept</span>
     </a>
+    <span class="sep">|</span>
     <div id="postal-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
         <span itemprop="streetAddress">place bel-air 2</span>
+        <span class="sep">|</span>
         <span itemprop="postalCode">1003</span> <span itemprop="addressLocality">lausanne</span>
+        <span class="sep">|</span>
         <span itemprop="addressCountry">suisse</span>
     </div>
+    <span class="sep">|</span>
     <span itemprop="telephone">+41 21 311 33 77</span>
+    <span class="sep">|</span>
     <span itemprop="faxNumber">+41 21 311 33 76</span>
+    <span class="sep">|</span>
     <a id="site-email-footer" itemprop="email" href="mailto:info@konsept.ch">info@konsept.ch</a>
 </address>
 <ul id="social-icons">
