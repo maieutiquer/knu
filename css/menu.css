@@ -2,7 +2,7 @@
     display: none;
 } 
 #menu-holder{
-    width: 600px;
+    width: 585px;
     padding: 0px;
 } 
 #nav{
@@ -97,6 +97,11 @@ li#nav-kofc {
     }
 }
 
+@media screen and (max-width: 924px) and (min-width: 625px) {
+    #nav > li#nav-agency {
+        margin-left: 0;
+    }
+}
 @media screen and (max-width: 624px) {
     #menu-holder {
         width: 276px;

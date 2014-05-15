@@ -110,15 +110,6 @@ p {
     flex-flow: row wrap;
 }
 
-@media screen and (min-width: 624px) {
-    .header-inner {
-        
-    }
-    
-    #menu-holder {
-        width: 600px;
-    }
-}
 
 /***
     content
@@ -269,11 +260,6 @@ p {
     
     .multiple-links-holder {
         padding: 24px 0;
-    }
-}
-@media screen and (max-width: 924px) and (min-width: 625px) {
-    #nav > li#nav-agency {
-        margin-left: 0;
     }
 }
 
