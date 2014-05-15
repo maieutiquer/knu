@@ -1,5 +1,4 @@
 <?php defined('kexec') or die('Restricted access'); ?>
-<div id="home-main-inner-wrap">
 <nav class="homepage-links-holder" role="navigation">
 <ul class="homepage-links-holder">
   <li><a class="agency-link" href="agence"><span>agence</span></a>
@@ -15,4 +14,3 @@
   <li><a class="team-photo-link" href="equipe"><span>kollectif</span></a>
 </ul>
 </nav>
-</div>
