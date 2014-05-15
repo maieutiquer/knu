@@ -81,6 +81,14 @@
     outline-width: 2px;
 }
 
+@media screen and (max-width: 924px) {
+    #address {
+        justify-content: flex-start;
+    }
+    .sep {
+        padding: 0 5px;
+    }
+}
 @media screen and (max-width: 924px) and (min-width: 625px) {
     #address, #social-icons {
         width: 576px;
@@ -93,5 +101,17 @@
 @media screen and (min-width: 925px) {
     #address, #social-icons {
         width: 876px;
+    }
+}
+@media screen and (max-width: 625px) {
+    #address {
+        width: 240px;
+    }
+    .sep {
+        display: none;
+    }
+    #postal-address .sep:nth-of-type(2) {
+        display: inline;    
+        padding: 0 2px;
     }
 }
