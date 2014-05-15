@@ -4,7 +4,7 @@
     flex-flow: row wrap;
     justify-content: space-between;
     align-content: space-between;
-    align-items: center;
+    align-items: stretch;
     
     width: 876px;
     min-height: 574px;

@@ -118,7 +118,7 @@ p {
 #main{
     display: flex;
     flex-flow: row wrap; 
-    align-items: center;
+    align-items: stretch;
     margin: 22px auto 10px auto;
     width: 876px;
 }
@@ -128,7 +128,7 @@ p {
     flex-flow: row wrap;
     justify-content: space-between;
     align-content: space-between;
-    align-items: center;
+    align-items: stretch;
     
     min-height: 574px;
     margin: 0;
@@ -252,6 +252,9 @@ p {
     }
     #header-inner {
         justify-content: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
     }
     
     .homepage-links-holder {
