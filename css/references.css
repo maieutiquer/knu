@@ -147,11 +147,11 @@
     
 @media screen and (min-width: 625px) and (max-width: 918px) {
     .references_content{
-		width: 580px;
+		width: 576px;
 		margin: 22px auto 0px auto;
 	}
 	.references-intro {
-        width: 574px;
+        width: 576px;
         height: 276px;
         margin-bottom: 22px;
         line-height: 42px;
