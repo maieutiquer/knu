@@ -151,10 +151,10 @@ p {
 	display: -webkit-flex;
     display: flex;
     
-	flex-flow: row wrap;
 	-webkit-flex-flow: row wrap;
 	-moz-flex-flow: row wrap;
 	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
     
 	-webkit-justify-content: space-between;
     -moz-justify-content: space-between;
