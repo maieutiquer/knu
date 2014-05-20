@@ -189,16 +189,10 @@ prestations
 
 @media screen and (max-width: 624px) {
     
+    #services-list-holder,
 	.prestations_contatiner{
 		width: 276px;
 	}
-    #services-list-holder {
-	/*  -moz-justify-content: space-around;
-        -webkit-justify-content: space-around;
-        -ms-justify-content: space-around;
-        justify-content: space-around; */
-		
-    }
 	.services-intro{
 		width: 276px;
 	}

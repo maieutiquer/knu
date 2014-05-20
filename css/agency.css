@@ -138,4 +138,9 @@
     .presentation {
         margin-bottom: 24px;
     }
+	.agency_container,
+	.presentation-holder,
+	.values-description{
+		width: 276px;
+	}
 }

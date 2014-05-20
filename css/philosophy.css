@@ -193,6 +193,9 @@
         margin-bottom: 10px;
     }
     .direct-help {
+		-moz-justify-content: center;
+        -webkit-justify-content: center;
+        -ms-justify-content: center;
         justify-content: center;        
     }
     .charity-percentage-desc {
@@ -200,7 +203,11 @@
         order: 2;
     }
     
-    .konseptnu-desc, .konseptnu-logo, .charity-percentage-desc, .charity-percentage-kofc, .direct-help-percentage {
+    .konseptnu-desc,
+	.konseptnu-logo,
+	.charity-percentage-desc,
+	.charity-percentage-kofc, 
+	.direct-help-percentage {
         margin-bottom: 24px;
     }
 }
@@ -214,7 +221,6 @@
         width: 576px;
         min-height: initial;
     }
-    .konseptnu-logo,
     .charity-percentage-kofc,
     .direct-help-percentage {
         background-size: 576px;
@@ -223,7 +229,10 @@
         height: 576px;
     }
     .konseptnu-logo {
-        height: 280px;
+        width: 576px;
+		height: 280px;
+		
+        background-size: 576px;
     }
 	.konseptnu-desc{
 		width: 576px;
@@ -238,12 +247,22 @@
 @media screen and (max-width: 624px) {
     
     .konseptnu-logo {
-        background-size: 100%;
+        background-size: 276px;
+		width: 276px;
         height: 133px;
     }
-    
+	.konseptnu,
+    .konseptnu-desc,
+    .charity-percentage,
+    .charity-percentage-desc,
+	.direct-help,
+	.charity-percentage-desc,
+    .philosophy-page{
+		width: 276px;
+	}
     .charity-percentage-kofc {
         background-position: 0px -132px;
+		width: 276px;
         height: 277px;
         background-size: 100%;
     }

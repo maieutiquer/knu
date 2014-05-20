@@ -171,8 +171,10 @@
     }
 }
 @media screen and (max-width: 625px) {
-    #address {
-        width: 240px;
+	#footer,
+	#address,
+	#social-icons{
+        max-width: 276px;
     }
     .sep {
         display: none;
