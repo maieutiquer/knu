@@ -205,14 +205,15 @@
 		margin: 0px auto 0px auto;
     }
     
-    .team-list li {
-       
-       margin-bottom: 24px;
+    .team-list > li{
+		margin-bottom: 24px;
     }
-  .team-list {
-    margin-bottom: -24px;
-  }
+	
+	.team-list{
+		margin-bottom: -24px;
+	}
 }
+
 @media screen and (max-width: 624px) {
     .team-list {
         width: 276px;
