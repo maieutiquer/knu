@@ -118,6 +118,7 @@
         width: 276px;
         height: 574px;
         padding: 10px 16px 0px;
+        -moz-box-sizing: border-box;
         box-sizing: border-box;
         
         background-color: #8064a2;
