@@ -115,9 +115,6 @@
             padding: 15px 10px 0px 15px; 
             line-height: 21px;
         }
-        .team-description strong{
-            font-weight: normal;
-        }
         .presentation-keko{
             background: #fffeff; /* Old browsers */
             background: -moz-linear-gradient(top,  #fffeff 0%, #8166a3 100%); /* FF3.6+ */
