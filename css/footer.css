@@ -142,8 +142,8 @@
     #address {
         justify-content: flex-start;
     }
-    .sep {
-        padding: 0 5px;
+    #address > .sep {
+        padding: 0 10px;
     }
 }
 @media screen and (max-width: 924px) and (min-width: 625px) {
@@ -152,6 +152,9 @@
     }
     #footer {
         align-content: initial;
+    }
+    #address > .sep:nth-of-type(4) {
+      display: none;
     }
 }
 

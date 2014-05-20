@@ -202,7 +202,7 @@
 		margin: 0px auto 0px auto;
     }
     
-    .team-list li {
+    .team-list > li {
        
        margin-bottom: 24px;
     }
@@ -215,8 +215,4 @@
         width: 276px;
     }
     
-    .team-list li {
-       
-       margin-bottom: 24px;
-    }
 }
