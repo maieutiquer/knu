@@ -161,11 +161,6 @@ prestations
         -ms-justify-content: flex-start;
         justify-content: flex-start;
 		
-		-webkit-justify-content: space-around;
-		-moz-justify-content: space-around;
-		-ms-justify-content: space-around;
-		justify-content: space-around;
-	
 		width: 625px; 
     }
     #services-list-holder li {
