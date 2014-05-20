@@ -133,13 +133,6 @@ p {
 ***/
 
 #main{
-	/* display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-    display: flex;
-    flex-flow: row wrap; 
-    align-items: stretch; */
     margin: 22px auto 10px auto;
     width: 876px;
 }
