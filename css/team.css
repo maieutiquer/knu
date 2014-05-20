@@ -196,7 +196,7 @@
 
 @media screen and (max-width: 924px) {
     .team-list {
-        width: 575px;
+        width: 576px;
 
 		-ms-justify-content: center;		
 		-ms-align-content: center;
@@ -209,6 +209,9 @@
        
        margin-bottom: 24px;
     }
+  .team-list {
+    margin-bottom: -24px;
+  }
 }
 @media screen and (max-width: 624px) {
     .team-list {
