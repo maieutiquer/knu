@@ -378,7 +378,8 @@ p {
 @media screen and (max-width: 624px) {
     
     #header-inner,
-    #main,
+    .homepage-links-holder,
+	#main,
     #footer,
     #address {
         width: 276px;
@@ -403,24 +404,5 @@ p {
     }
 	.welcome-link{
 		margin: 0px 0px 24px 0px; 
-	}
-	.homepage-links-holder a,
-	.multiple-links-holder{
-		display: -webkit-box;
-		display: -moz-box;
-		display: -ms-flexbox;
-		display: -webkit-flex;
-		display: flex;
-		
-		-webkit-align-items: center;
-		-moz-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
-		
-		-webkit-justify-content: center;
-		-moz-justify-content: center;
-		-ms-justify-content: center;
-		justify-content: center;
-		
 	}
 }

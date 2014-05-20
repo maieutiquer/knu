@@ -171,6 +171,7 @@ prestations
 	.prestations_contatiner{
 		width: 575px;
 		margin: 0px auto 0px auto;
+		
 		-ms-justify-content: center;		
 		-ms-align-content: center;
 		-ms-align-items: center;
