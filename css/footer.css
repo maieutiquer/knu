@@ -133,6 +133,11 @@
     outline-width: 2px;
 }
 
+.sep {
+  padding: 0 5px;
+}
+
+
 @media screen and (max-width: 924px) {
     #address {
         justify-content: flex-start;
