@@ -122,10 +122,14 @@
 
 @media screen and (max-width: 924px) {
     .presentation-holder {
-        width: 100%;
+        width: 575px;
         height: auto;
-        margin-bottom: 24px;
+		
+		margin: 0px auto 24px auto;
     }
+	.values-description{
+		margin: 0 auto;
+	}
     
 }
 

@@ -53,8 +53,7 @@ p {
     header
 ***/
 
-#header {
-    display: flex; 
+#header { 
     width: 100%;  
     min-height: 149px;
     z-index: 1;
@@ -306,11 +305,10 @@ p {
     #main,
     #footer,
     #address {
-        width: 576px;
+        width: 626px;
+		
     }
-    
     #logo {
-        margin: 0 auto;
     }
     #slogan-holder {
         padding: 20px 0;
@@ -363,6 +361,10 @@ p {
 		-moz-align-items: stretch;
 		-ms-align-items: stretch;
 		align-items: stretch;
+		
+		width: 575px;
+		
+		margin: 22px auto 10px auto;
     }
     
     .multiple-links-holder {
@@ -390,11 +392,35 @@ p {
         margin-top: -37px;
         line-height: 37px;
     }
-    .agency-link, .welcome-link, .services-link {
+    .agency-link, 
+	.welcome-link,
+	.services-link {
         margin-bottom: 24px;
     }
     
     #social-icons > li {
         margin: 7px;
     }
+	.welcome-link{
+		margin: 0px 0px 24px 0px; 
+	}
+	.homepage-links-holder a,
+	.multiple-links-holder{
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		
+		-webkit-align-items: center;
+		-moz-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		
+		-webkit-justify-content: center;
+		-moz-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		
+	}
 }

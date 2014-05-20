@@ -27,7 +27,7 @@
 	align-items: center;
     
     min-height: 1077px;
-    
+	
     color: #fff;
 }
 .philosophy-page p {
@@ -37,6 +37,7 @@
 .konseptnu-desc,
 .charity-percentage-desc,
 .direct-help-desc {
+	max-width: 100%;
     padding: 0 15px;
     box-sizing: border-box;
 }
@@ -72,7 +73,6 @@
     min-height: 779px;    
 }
     .konseptnu-desc{
-        
         min-height: 550px;
         
         background-color: #4d4d4d;
@@ -81,6 +81,7 @@
         line-height: 31px;
     }
     .konseptnu-logo{
+	display: block;
         background-image: url(../images/sprites_philosophie.png);
     
         width: 427px;
@@ -125,6 +126,7 @@
         line-height: 35px;
     }
     .charity-percentage-kofc{
+		display: block;
         background-image: url(../images/sprites_philosophie.png);
         background-position: 0px -207px;
         
@@ -169,7 +171,8 @@
     .direct-help-desc > p{
         line-height: 33px;
     }
-    .direct-help-percentage{    
+    .direct-help-percentage{   
+		display: block; 
         background-image: url(../images/sprites_philosophie.png);
         background-position: 0px -410px;
         background-size: 276px;
@@ -180,6 +183,9 @@
 
 @media screen and (max-width: 924px) {
     .philosophy-page {
+        -moz-justify-content: center;
+        -webkit-justify-content: center;
+        -ms-justify-content: center;
         justify-content: center;
     }
     .philosophy-page p {
@@ -189,6 +195,7 @@
         justify-content: center;        
     }
     .charity-percentage-desc {
+		-webkit-order: 2;
         order: 2;
     }
     
@@ -200,8 +207,10 @@
     .konseptnu,
     .konseptnu-desc,
     .charity-percentage,
-    .charity-percentage-desc {
-        width: auto;
+    .charity-percentage-desc,
+	.direct-help,
+	.charity-percentage-desc{
+        width: 575px;
         min-height: initial;
     }
     .konseptnu-logo,
@@ -215,6 +224,9 @@
     .konseptnu-logo {
         height: 280px;
     }
+	.konseptnu-desc{
+		width: 575px;
+	}
     .charity-percentage-kofc {
         background-position: 0 -280px;
     }
@@ -228,7 +240,6 @@
         background-size: 100%;
         height: 133px;
     }
-    
     
     .charity-percentage-kofc {
         background-position: 0px -132px;

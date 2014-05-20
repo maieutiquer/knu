@@ -161,25 +161,44 @@ prestations
         -ms-justify-content: flex-start;
         justify-content: flex-start;
 		
-		width: 625px; 
+		width:575px ;
     }
     #services-list-holder li {
         margin: 0 24px 22px 0;
     }
+	#main{
+	}
+	.prestations_contatiner{
+		width: 575px;
+		margin: 0px auto 0px auto;
+		-ms-justify-content: center;		
+		-ms-align-content: center;
+		-ms-align-items: center;
+	}
 	.services-intro{
 		width: 565px;
-	}
+	}/* 
+	.service{
+		width: 112px;
+	} */
 }
 
 
 @media screen and (max-width: 624px) {
     
+	.prestations_contatiner{
+		width: 276px;
+	}
     #services-list-holder {
-        -moz-justify-content: space-around;
+	/*  -moz-justify-content: space-around;
         -webkit-justify-content: space-around;
         -ms-justify-content: space-around;
-        justify-content: space-around;
+        justify-content: space-around; */
+		
     }
+	.services-intro{
+		width: 276px;
+	}
     #services-list-holder li {
         margin-bottom: 24px;
     }
