@@ -63,10 +63,27 @@ p {
     box-shadow: 0 1px 14px #888;
 }
     #header-inner {
-        display: flex;
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		
+		-webkit-flex-flow: row;
+		-moz-flex-flow: row;
+		-ms-flex-flow: row;
         flex-flow: row;
-        justify-content: space-between;
+		
+		-webkit-justify-content: space-between;
+		-moz-justify-content: space-between;
+		-ms-justify-content: space-between;
+		justify-content: space-between;
+		
+		-webkit-align-items: center;
+		-moz-align-items: center;
+		-ms-align-items: center;
         align-items: center;
+		
         margin: 0 auto; 
         width: 876px;
         min-height: 204px;
@@ -116,18 +133,42 @@ p {
 ***/
 
 #main{
+	/* display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
     display: flex;
     flex-flow: row wrap; 
-    align-items: stretch;
+    align-items: stretch; */
     margin: 22px auto 10px auto;
     width: 876px;
 }
 
 .homepage-links-holder {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    
+	flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+    
+	-webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+	justify-content: space-between;
+    
+	-webkit-align-content: space-between;
+    -moz-align-content: space-between;
+    -ms-align-content: space-between;
     align-content: space-between;
+    
+	-webkit-align-items: stretch;
+    -moz-align-items: stretch;
+    -ms-align-items: stretch;
     align-items: stretch;
     
     min-height: 574px;
@@ -136,9 +177,21 @@ p {
     list-style: none;
 }
 .homepage-links-holder a{
-    display:flex;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+    display: flex;
+	
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
     align-items: center;
-    justify-content: center; 
+	
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+	justify-content: center;
     
     font-size: 32px;
 }
@@ -173,18 +226,33 @@ p {
     background-position: 0px -104px;
 }
 .multiple-links-holder{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
     display: flex;
+	
     flex-flow: row wrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+	-webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+    
+	justify-content: center;
+    
+	align-content: center;
+    
+	align-items: center;
     
     margin: 0;
     padding:0;
     list-style: none;
 }
     .multiple-links-holder a{
-        display:flex;
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+        display: flex;
         align-items: center;
         justify-content: center;
         
@@ -251,19 +319,58 @@ p {
         margin-left: 33px;
     }
     #header-inner {
-        justify-content: center;
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
         display: flex;
+		
         flex-flow: row wrap;
-        justify-content: space-between;
+		-webkit-flex-flow: row wrap;
+		-moz-flex-flow: row wrap;
+		-ms-flex-flow: row wrap;
+		
+        justify-content: center;
+		
+		-webkit-justify-content: center;
+		-moz-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		
+		-webkit-align-content: space-between;
+		-moz-align-content: space-between;
+		-ms-align-content: space-between;
+		align-content: space-between;
+		
+		-webkit-align-items: stretch;
+		-moz-align-items: stretch;
+		-ms-align-items: stretch;
+		align-items: stretch;
     }
     
     .homepage-links-holder {
-        /*justify-content: space-around;*/
+		-webkit-justify-content: space-between;
+		-moz-justify-content: space-between;
+		-ms-justify-content: space-between;
+		justify-content: space-between;
+		
+		-webkit-align-content: space-between;
+		-moz-align-content: space-between;
+		-ms-align-content: space-between;
+		align-content: space-between;
+		
+		-webkit-align-items: stretch;
+		-moz-align-items: stretch;
+		-ms-align-items: stretch;
+		align-items: stretch;
     }
     
     .multiple-links-holder {
         padding: 24px 0;
     }
+	.welcome-link{
+		margin: 24px 0px 0px 0px; 
+	}
 }
 
 @media screen and (max-width: 624px) {

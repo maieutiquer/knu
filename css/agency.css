@@ -1,19 +1,59 @@
 .agency_container{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	
+    -webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+
+    -webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	-ms-justify-content: space-between;
+	justify-content: space-between;
+	
+    -webkit-align-content: space-between;
+    -moz-align-content: space-between;
+    -ms-align-content: space-between;
     align-content: space-between;
-    align-items: center; 
+	
+    -webkit-align-items: center;
+	-moz-align-items: center;
+	-ms-align-items: center;
+	align-items: center;  
     
     /*width: 876px;*/
     width: 100%;
 }
 .presentation-holder{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	
+	-webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+
+    -webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	-ms-justify-content: space-between;
+	justify-content: space-between;
+	
+    -webkit-align-content: space-between;
+    -moz-align-content: space-between;
+    -ms-align-content: space-between;
     align-content: space-between;
-    align-items: center; 
+	
+    -webkit-align-items: center;
+	-moz-align-items: center;
+	-ms-align-items: center;
+	align-items: center; 
 
     width: 276px;
     height: 574px;
