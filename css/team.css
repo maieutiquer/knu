@@ -195,26 +195,18 @@
 
 @media screen and (max-width: 924px) {
     .team-list {
-        width: 576px;
+        width: 600px;
 
 		-ms-justify-content: center;		
 		-ms-align-content: center;
 		-ms-align-items: center;
 
-		margin: 0px auto 0px auto;
+		margin: 0 auto;
     }
-    
-    .team-list > li {
-       
-       margin-bottom: 24px;
-    }
-  .team-list {
-    margin-bottom: -24px;
-  }
 }
 @media screen and (max-width: 624px) {
     .team-list {
-        width: 276px;
+        width: 300px;
     }
     
 }

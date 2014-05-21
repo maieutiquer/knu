@@ -30,9 +30,8 @@ prestations
 	-ms-align-items: center;
 	align-items: center;
     
-    width: 876px;
+    width: 900px;
     min-height: 536px;
-    margin: 0 12px;
 }
 #services-list-holder{
     display: -webkit-box;
@@ -62,10 +61,10 @@ prestations
 	align-items: center;
 	
     list-style: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     
-    width: 876px;
+    width: 890px;
     min-height: 112px;
 }
 .service{
@@ -87,6 +86,7 @@ prestations
     
     width: 112px;
     height: 112px;
+    margin: 11px 7px;
     
     color: white;
     font-size: 24px;
@@ -137,8 +137,8 @@ prestations
   -ms-flex-direction: column;
   flex-direction: column;
   
-    width: 100%;
-    margin: 11px 0;
+    width: 876px;
+    margin: 11px 12px;
     padding: 7px 10px 0px 16px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -160,36 +160,20 @@ prestations
     /*align-content: initial;*/
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 0){
-    .services-intro > p{
-        /*font-size: 26px;*/
-    }
-}
-
-@media screen and (min-width: 924px) {
-    #services-list-holder {
-        margin: 11px 0;
-    }
-}
-
 @media screen and (max-width: 924px) and (min-width: 625px) {
-
+  #services-list-holder,
+	.prestations_contatiner{
+		width: 600px;
+	}
     #services-list-holder {
         -moz-justify-content: flex-start;
         -webkit-justify-content: flex-start;
         -ms-justify-content: flex-start;
         justify-content: flex-start;
 		
-		width:576px ;
     }
-    #services-list-holder li {
-        margin: 0 24px 22px 0;
-    }
-	#main{
-	}
 	.prestations_contatiner{
-		width: 576px;
-		margin: 0px auto 0px auto;
+		margin: 0 auto;
 		
 		-ms-justify-content: center;		
 		-ms-align-content: center;
@@ -197,23 +181,21 @@ prestations
 	}
 	.services-intro{
 		width: 576px;
-	}/* 
-	.service{
-		width: 112px;
-	} */
+	}
 }
-
+@media screen and (max-width: 924px) {
+	.service{
+		margin: 11px 12px;
+	}
+}
 
 @media screen and (max-width: 624px) {
     
     #services-list-holder,
 	.prestations_contatiner{
-		width: 276px;
+		width: 300px;
 	}
 	.services-intro{
 		width: 276px;
 	}
-    #services-list-holder li {
-        margin-bottom: 24px;
-    }
 }

@@ -104,7 +104,11 @@ p {
         letter-spacing: .2px;
     }
 #slogan-holder {
-    padding-top: 50px;
+  position: relative;
+  height: 128px;
+  padding-top: 50px;
+  -moz-box-sizing: border-box;  
+  box-sizing: border-box;  
     
     color: #4d4d4d;
     letter-spacing: 7px;
@@ -305,7 +309,10 @@ p {
 @media screen and (max-width: 924px) {
     
     #header-inner,
-    #main,
+    #main {
+        width: 600px;
+		
+    }
     #footer,
     #address {
         width: 626px;
@@ -365,21 +372,19 @@ p {
 		-ms-align-items: stretch;
 		align-items: stretch;
 		
-		width: 576px;
+		width: 600px;
 		
     }
     
-    .multiple-links-holder {
-        padding: 24px 0;
-    }
 	.welcome-link{
 		margin: 24px 0px 0px 0px; 
 	}
 }
 
 @media screen and (max-width: 624px) {
-    
-    #header-inner,
+    #header-inner {
+      width: 276px;
+    }
     .homepage-links-holder,
     #main {
         width: 300px;

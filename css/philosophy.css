@@ -122,7 +122,7 @@
     min-height: 779px;
 }
     .charity-percentage-desc{
-        min-height: 333px;
+        min-height: 331px;
         width: 426px;
         margin: 11px 12px;
         
@@ -212,11 +212,9 @@
     }
     
     .konseptnu-desc,
-	.konseptnu-logo,
 	.charity-percentage-desc,
-	.charity-percentage-kofc, 
-	.direct-help-percentage {
-        margin-bottom: 24px;
+	.direct-help-desc {
+        min-height: 0;
     }
 }
 @media screen and (max-width: 924px) and (min-width: 625px) {
@@ -226,7 +224,7 @@
     .charity-percentage-desc,
 	.direct-help,
 	.charity-percentage-desc{
-        width: 576px;
+        width: 600px;
         min-height: initial;
     }
     .charity-percentage-kofc,
@@ -266,7 +264,7 @@
 	.direct-help,
 	.charity-percentage-desc,
     .philosophy-page{
-		width: 276px;
+		width: 300px;
 	}
     .charity-percentage-kofc {
         background-position: 0px -132px;

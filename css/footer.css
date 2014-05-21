@@ -135,7 +135,6 @@
 .social-icon:focus {
     outline-width: 2px;
 }
-
 .sep {
   padding: 0 5px;
 }
@@ -145,6 +144,7 @@
     #address {
         justify-content: flex-start;
     }
+
     #address > .sep {
         padding: 0 10px;
     }
@@ -158,7 +158,7 @@
 }
 @media screen and (max-width: 924px) and (min-width: 625px) {
     #address, #social-icons {
-        width: 600px;
+        width: 576px;
     }
     #footer {
         align-content: initial;
@@ -176,8 +176,9 @@
 @media screen and (max-width: 625px) {
 	#footer,
 	#address,
-	#social-icons{
+  #postal-address {
         max-width: 240px;
+        width: 240px;
     }
     .sep {
         display: none;
