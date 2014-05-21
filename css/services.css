@@ -120,6 +120,10 @@ prestations
 .service-internet{
     background-color: #0070c0;
 }
+.service span {
+  display: block;
+  -ms-flex: 0 1 auto;
+}
 .services-intro{
     width: 100%;
     padding: 7px 10px 0px 16px;

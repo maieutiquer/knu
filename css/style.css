@@ -188,6 +188,11 @@ p {
     
     font-size: 32px;
 }
+.homepage-links-holder span {
+  /* IE10 hack */
+  display: block;
+  -ms-flex: 0 1 auto;
+}
 .homepage-links-holder a,
 .multiple-links-holder{
     
