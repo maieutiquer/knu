@@ -4,7 +4,7 @@
         <div class="presentation">
             <p>Chez <strong>konsept</strong>, nous relevons chaque défi que nos clients nous confient en nous basant sur le carré de nos valeurs.</p>
         </div>
-        <aside class="values-box agency-values">
+        <aside class="values-list">
             <ul>
                 <li id="value-ethics">éthique
                 <li id="value-originality">originalité

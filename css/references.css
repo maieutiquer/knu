@@ -25,14 +25,15 @@
 	-ms-align-items: center;
 	align-items: center;
     
-    width: 876px;
-    min-height: 574px;
+    width: 900px;
+    min-height: 596px;
     
     color: #fff;
 }
     .references-intro{
         width: 276px;
         height: 574px;
+        margin: 11px 12px;
         
         background-color: #8064a2;
         
@@ -65,12 +66,13 @@
 		-ms-align-content: space-around;
 		align-content: space-around;
         
-        width: 276px;
-        height: 574px;
+        width: 300px;
+        height: 596px;
     }
         #visual-konsept{
             width: 276px;
             height: 276px;
+            margin: 11px 12px;
 
             background-image: url(../images/sprites.jpg);
             background-position: 0px -552px;
@@ -101,6 +103,7 @@
             
             width: 276px;
             height: 276px;
+            margin: 11px 12px;
             
             background-color: #4d4d4d;
             
@@ -117,6 +120,7 @@
     .areas-of-activity{
         width: 276px;
         height: 574px;
+        margin: 11px 12px;
         padding: 10px 16px 0px;
         -moz-box-sizing: border-box;
         box-sizing: border-box;

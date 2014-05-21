@@ -70,23 +70,26 @@
 	-ms-align-items: center;
 	align-items: center;
 	
-    width: 426px;
+    width: 450px;
     min-height: 779px;    
 }
+    .konseptnu-logo{
+		display: block;
+        background-image: url(../images/sprites_philosophie.png);
+    
+        width: 426px;
+        height: 207px;
+        margin: 11px 12px;
+    }
     .konseptnu-desc{
         min-height: 550px;
+        width: 426px;
+        margin: 11px 12px;
         
         background-color: #4d4d4d;
     }
     .konseptnu-desc > p{
         line-height: 31px;
-    }
-    .konseptnu-logo{
-		display: block;
-        background-image: url(../images/sprites_philosophie.png);
-    
-        width: 427px;
-        height: 207px;        
     }
 .charity-percentage{
     display: -webkit-box;
@@ -115,11 +118,13 @@
 	-ms-align-items: center;
 	align-items: center;
     
-    width: 426px; 
+    width: 450px; 
     min-height: 779px;
 }
     .charity-percentage-desc{
         min-height: 333px;
+        width: 426px;
+        margin: 11px 12px;
         
         background-color: #00b0a0;
     }
@@ -133,6 +138,7 @@
         
         width: 426px;
         height: 426px;
+        margin: 11px 12px;
     }
 .direct-help{
     display: -webkit-box;
@@ -161,17 +167,8 @@
 	-ms-align-items: center;
 	align-items: center;
 	
-    width: 876px;
+    width: 900px;
 }
-    .direct-help-desc{
-        width: 576px;
-        min-height: 276px;
-        
-        background-color: #00b0a0;
-    }
-    .direct-help-desc > p{
-        line-height: 33px;
-    }
     .direct-help-percentage{   
 		display: block; 
         background-image: url(../images/sprites_philosophie.png);
@@ -180,6 +177,17 @@
         
         width: 276px;
         height: 276px;
+        margin: 11px 12px;
+    }
+    .direct-help-desc{
+        width: 576px;
+        margin: 11px 12px;
+        min-height: 276px;
+        
+        background-color: #00b0a0;
+    }
+    .direct-help-desc > p{
+        line-height: 33px;
     }
 
 @media screen and (max-width: 924px) {

@@ -26,7 +26,7 @@
 	-ms-align-items: stretch;
 	align-items: stretch;
     
-    width: 876px;
+    width: 900px;
     min-height: 574px;
     margin: 0;
     padding:0;
@@ -39,6 +39,7 @@
         
         width: 274px;
         height: 274px;
+        margin: 11px 12px;
         
         border: 1px solid #b5b5b5;
     }
@@ -107,6 +108,7 @@
         background-color: #4d4d4d;
         width: 276px;
         height: 276px;
+        margin: 11px 12px;
         
         color: white;
         font-size: 17px;

@@ -5,7 +5,7 @@
 	  <li><a class="ikon-link" href="prestations"><span>ikon</span></a>
 	  <li><ul class="multiple-links-holder">
 		<li><a class="human-konsept-link" href="human" target="_blank"><span>human konsept</span></a>
-		<li><a class="kofc-link" href="kofc" target="_blank"><span>konsept<br>of Charity</span></a>
+		<li><a class="kofc-link" href="kofc" target="_blank"><span>konsept of&nbsp;Charity</span></a>
 		<li><a class="philosophy-link" href="philosophie"><span>philosophie</span></a>
 		<li><a class="shopk2-link" href="k2" target="_blank"><span>shop k²</span></a>
 	  </ul>

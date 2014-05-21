@@ -133,8 +133,8 @@ p {
 ***/
 
 #main{
-    margin: 22px auto 10px auto;
-    width: 876px;
+    margin: 11px auto 0;
+    width: 900px;
 }
 
 .homepage-links-holder {
@@ -186,7 +186,11 @@ p {
     -ms-justify-content: center;
 	justify-content: center;
     
+    width: 276px;
+    height: 276px;
+    
     font-size: 32px;
+    margin: 11px 12px;
 }
 .homepage-links-holder span {
   /* IE10 hack */
@@ -195,9 +199,6 @@ p {
 }
 .homepage-links-holder a,
 .multiple-links-holder{
-    
-    width: 276px;
-    height: 276px;
     
     color: white;
     outline: 0px solid #ccc;
@@ -240,8 +241,10 @@ p {
 	align-content: center;
     
 	align-items: center;
-    
-    margin: 0;
+        
+    width: 300px;
+    height: 300px;
+    margin: -1px 0;
     padding:0;
     list-style: none;
 }
@@ -258,6 +261,7 @@ p {
         font-size: 24px;
         width: 126px;
         height: 126px;
+        margin: 12px 12px;
         
         outline: 0px solid #ccc;
         transition: .05s outline-width linear;
@@ -363,7 +367,6 @@ p {
 		
 		width: 576px;
 		
-		margin: 22px auto 10px auto;
     }
     
     .multiple-links-holder {
@@ -378,12 +381,14 @@ p {
     
     #header-inner,
     .homepage-links-holder,
-	#main,
+    #main {
+        width: 300px;
+    }
+    
     #footer,
     #address {
         width: 276px;
     }
-    
     #slogan-holder span {
         width: auto;
     }

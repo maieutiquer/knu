@@ -32,6 +32,7 @@ prestations
     
     width: 876px;
     min-height: 536px;
+    margin: 0 12px;
 }
 #services-list-holder{
     display: -webkit-box;
@@ -125,7 +126,19 @@ prestations
   -ms-flex: 0 1 auto;
 }
 .services-intro{
+  display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+  
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  
     width: 100%;
+    margin: 11px 0;
     padding: 7px 10px 0px 16px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -155,7 +168,7 @@ prestations
 
 @media screen and (min-width: 924px) {
     #services-list-holder {
-        margin-bottom: 12px;
+        margin: 11px 0;
     }
 }
 

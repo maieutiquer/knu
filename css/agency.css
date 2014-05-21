@@ -25,7 +25,7 @@
 	-ms-align-items: center;
 	align-items: center;  
     
-    /*width: 876px;*/
+    /*width: 900px;*/
     width: 100%;
 }
 .presentation-holder{
@@ -55,8 +55,7 @@
 	-ms-align-items: center;
 	align-items: center; 
 
-    width: 276px;
-    height: 574px;
+    width: 300px;
     
     color: #fff; 
 }
@@ -64,6 +63,7 @@
         display: block;
         width: 276px;
         height: 276px;
+        margin: 11px 12px;
 
         background-color: #8064a2;
     }
@@ -74,14 +74,15 @@
             line-height: 43px; 
             font-size: 26px;
         }
-    .values-box{
+    .values-list {
         width: 276px;
         height: 276px;
+        margin: 11px 12px;
         
         background-image: url(../images/sprites.png);
         background-position: 0px -380px;
     }
-        .values-box > ul{
+        .values-list > ul{
             display: block;
             margin: 0px;
             padding: 0px 8px 15px 19px;
@@ -105,6 +106,7 @@
 .values-description{
     /*width: 576px;*/
     max-width: 576px;
+    margin: 11px 12px;
     padding: 0 15px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
