@@ -252,19 +252,16 @@
 }
 @media screen and (max-width: 624px) {
     
-    .konseptnu-logo {
+    .konseptnu-logo,
+	.konseptnu	{
         background-size: 276px;
 		width: 276px;
         height: 133px;
     }
-	.konseptnu,
     .konseptnu-desc,
-    .charity-percentage,
     .charity-percentage-desc,
-	.direct-help,
-	.charity-percentage-desc,
-    .philosophy-page{
-		width: 300px;
+	.charity-percentage-desc{
+		width: 276px;
 	}
     .charity-percentage-kofc {
         background-position: 0px -132px;

@@ -133,8 +133,8 @@
 @media screen and (max-width: 624px) {
 	.agency_container,
 	.presentation-holder {
-    width: 300px;
-  }
+		width: 300px;
+	}
 	.values-description{
 		width: 276px;
 	}
