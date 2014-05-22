@@ -30,5 +30,4 @@
             <li>Cafés, restaurants
         </ul>
     </div>
-    <p style="background: red; ">HO HO HO</p>
 </div>
