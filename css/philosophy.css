@@ -252,10 +252,9 @@
 }
 @media screen and (max-width: 624px) {
     
-    .konseptnu-logo,
-	.konseptnu	{
+    .konseptnu-logo	{
         background-size: 276px;
-		width: 276px;
+        width: 276px;
         height: 133px;
     }
     .konseptnu-desc,
