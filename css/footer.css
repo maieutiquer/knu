@@ -187,4 +187,8 @@
         display: inline;    
         padding: 0 2px;
     }
+  #address > span:not(.sep) {
+    /* IE10 fix */
+    display: block;
+  }
 }
