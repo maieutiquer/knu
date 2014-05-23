@@ -104,12 +104,11 @@
     padding:0;
     list-style: none;
 }
-#linkedin-icon{
+#linkedin-icon {
     display: block; 
     width: 24px;
     height: 24px;
     background-image: url(../images/sprites.png);
-    background-size: ;
     background-position: 0px 24px;
     margin-right: 7px;
 }
@@ -117,12 +116,11 @@
 #linkedin-icon:hover {
     background-position: -24px 24px;
 }
-#facebook-icon{    
+#facebook-icon {    
     display: block; 
     width: 24px;
     height: 24px;
     background-image: url(../images/sprites.png);
-    background-size: ;
     background-position: -48px 24px;
 }
 #facebook-icon:focus,
