@@ -63,10 +63,10 @@
             </div>
         </a>
     <li><div class="team-description">
-            <p>Le <strong>kollectif</strong>, c’est nous!<br> Une équipe de professionnels
+            <p>Le <strong>kollectif</strong>, c’est nous !<br> Une équipe de professionnels
 engagés et passionnés qui met ses&nbsp;compétences pour oeuvrer au&nbsp;sein de l’agence
 <strong>konsept</strong> et des associations <strong>konsept of Charity</strong> et <strong>human konsept</strong>
 Animés par des valeurs communes, nous collaborons sur tous les projets permettant
-ainsi de conjuguer nos talents individuels à&nbsp;l’enthousiasme... kollectif !
+ainsi de conjuguer nos talents individuels à&nbsp;l’enthousiasme... <strong>kollectif</strong> !
         </div>
 </ul>
