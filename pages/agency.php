@@ -2,7 +2,7 @@
 <div class="agency_container">
     <div class="presentation-holder">
         <div class="presentation">
-            <p>Chez <strong>konsept</strong>, nous relevons chaque défi que nos clients nous confie en nous basant sur le carré de nos valeurs.</p>
+            <p>Chez <strong>konsept</strong>, nous relevons chaque défi que nos clients nous confient en nous basant sur le carré de nos valeurs.</p>
         </div>
         <aside class="values-list">
             <ul>
