@@ -1,7 +1,7 @@
 <?php defined('kexec') or die('Restricted access'); ?>
 <div id="header-inner">
   <div id="logo">
-    <a href="./"><img src="images/logo.png" alt="logo konsept"></a>
+    <a href="./"><img src="images/logo.png" alt="logo konsept" width="276" height="104"></a>
     <p>agence de communication</p>
   </div>
 <?php
