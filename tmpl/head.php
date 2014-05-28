@@ -7,13 +7,4 @@
 <?php endif; ?>
 <link rel="icon" href="favicon.png">
 <?=$inlineStyle?>
-<link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/colorbox.css">
-<link rel="stylesheet" href="css/menu.css">
-<link rel="stylesheet" href="css/footer.css">
-<link rel="stylesheet" href="css/agency.css">
-<link rel="stylesheet" href="css/references.css">
-<link rel="stylesheet" href="css/services.css">
-<link rel="stylesheet" href="css/team.css">
-<link rel="stylesheet" href="css/philosophy.css">
+<link rel="stylesheet" href="/min/b=knu/css&amp;f=normalize.css,style.css,colorbox.css,menu.css,footer.css,agency.css,references.css,services.css,team.css,philosophy.css">
