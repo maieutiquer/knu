@@ -3,7 +3,7 @@
 <article class="konseptnu">
     <span class="konseptnu-logo"></span>
     <div class="konseptnu-desc">
-        <h1>konsept.nu</h1>
+        <h2>konsept.nu</h2>
         <p>
             <strong>konsept.nu</strong> regroupe plusieurs entités qui défendent les mêmes valeurs humaines.<br>
             Ainsi, l’agence de communication <strong>konsept</strong>, l’association active dans les ressources humaines, <strong>human konsept</strong>
@@ -16,7 +16,7 @@
 </article>
 <article class="charity-percentage">
     <div class="charity-percentage-desc">
-        <h1>10&thinsp;% d’honoraires reversés</h1>
+        <h2>10&thinsp;% d’honoraires reversés</h2>
         <p>
             L’altruisme et le sens de la responsabilité qui animent <strong>konsept.nu</strong> se concrétisent notamment
             par la rétrocession de 10&thinsp;% des honoraires générés par <strong>konsept</strong> sàrl et par <strong>human konsept</strong>.
@@ -28,7 +28,7 @@
 <article class="direct-help">
     <span class="direct-help-percentage"></span>
     <div class="direct-help-desc">
-        <h1>100&#8239;% don - 0&#8239;%&nbsp;frais</h1>
+        <h2>100&#8239;% don - 0&#8239;%&nbsp;frais</h2>
         <p>
             La confiance doit être la base de toute relation si l’on souhaite que celle-ci puisse s’inscrire dans le temps. 
             Ainsi, l’association humanitaire <strong>konsept of Charity</strong> est basée sur notre philosophie unique «&nbsp;100% don – 0% frais&nbsp;». 
