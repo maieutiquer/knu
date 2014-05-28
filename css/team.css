@@ -53,6 +53,7 @@
             height: 137px;
             
             color: white;
+            line-height: 20px;
         }
         .person_info > h3{
             width: 30px;
@@ -182,15 +183,6 @@
             .presentation-jonathan > div{
                 background-color: rgba(155, 187, 90, 0.92);
             }
-@media screen and (-webkit-min-device-pixel-ratio: 0){
-        .person_info > span:first-of-type{
-            padding: 7px 0px 0px 0px;
-        }
-        .mail_icon{
-            top: 118px;
-            height: 103px;
-        }
-}
 
 
 @media screen and (max-width: 924px) {
