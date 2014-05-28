@@ -1,13 +1,13 @@
 <?php defined('kexec') or die('Restricted access'); ?>
 <div class="prestations_contatiner">
     <ul id="services-list-holder">
-        <li><a href="images/services/comm.png" class="service service-comm"><span>comm'</span></a>
-        <li><a href="images/services/event.png" class="service service-event"><span>event</span></a>
-        <li><a href="images/services/marketing.png" class="service service-marketing"><span>marketing</span></a>
-        <li><a href="images/services/pub.png" class="service service-advertizing"><span>publicité</span></a>
-        <li><a href="images/services/design.png" class="service service-design"><span>design</span></a>
-        <li><a href="images/services/pr.png" class="service service-pr"><span>relations publiques</span></a>
-        <li><a href="images/services/web.png" class="service service-internet"><span>internet</span></a>
+        <li><a href="#service-comm" class="service service-comm"><span>comm'</span></a>
+        <li><a href="#service-event" class="service service-event"><span>event</span></a>
+        <li><a href="#service-marketing" class="service service-marketing"><span>marketing</span></a>
+        <li><a href="#service-advertizing" class="service service-advertizing"><span>publicité</span></a>
+        <li><a href="#service-design" class="service service-design"><span>design</span></a>
+        <li><a href="#service-pr" class="service service-pr"><span>relations publiques</span></a>
+        <li><a href="#service-web" class="service service-web"><span>internet</span></a>
     </ul>
     <div class="services-intro">
         <p>Chez <strong>konsept</strong>, nous estimons que l’écoute est la base de notre travail. Notre rôle est de fournir des solutions professionnelles qui répondent aux objectifs fixés et qui soient le juste reflet de la demande de notre client.
@@ -15,8 +15,6 @@
     </div>
 </div>
 
-<?php /* // TODO: call services details
-<div id="services-details-holder">
+<div id="inline-popups">
 <?php include 'services-details.php'; ?>
 </div>
-*/
