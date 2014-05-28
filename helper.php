@@ -79,7 +79,7 @@ document.getElementById("inline-popups").style.display = "none";
   case null:
   default:
     $included_page = pages_dir."/home.php";
-    $page_title_full = "konsept - agence de communication à Lausanne";
+    $page_title_full = "agence de communication à Lausanne - konsept";
     $page_desc_full = "konsept of Charity (kofC) est une association humanitaire à but non lucratif à Lausanne, créée en août 2001 par le kollectif.";
     $inlineScripts = null;
     break;
