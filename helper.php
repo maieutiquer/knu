@@ -44,13 +44,13 @@ switch($page) {
   case 'références':
     $included_page = pages_dir.'/references.php';
     $nav_agency_class = ' active';
-    $nav_references_class = ' active';
+    $nav_references_class = 'active';
     $page_title = 'références';
     break;
   case 'prestations':
   case 'services':
     $included_page = pages_dir.'/services.php';
-    $nav_services_class = ' active';
+    $nav_services_class = 'active';
     $inlineScripts.= '
 document.getElementById("inline-popups").style.display = "none";';
     $scripts.= $includeJQuery;
@@ -60,13 +60,13 @@ document.getElementById("inline-popups").style.display = "none";';
   case 'équipe':
   case 'team':
     $included_page = pages_dir.'/team.php';
-    $nav_team_class = ' active';
+    $nav_team_class = 'active';
     $page_title = 'équipe';
     break;
   case 'philosophie':
   case 'philosophy':
     $included_page = pages_dir.'/philosophy.php';
-    $nav_philosophy_class = ' active';
+    $nav_philosophy_class = 'active';
     break;
   case 'accueil':
   case 'home':
