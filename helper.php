@@ -1,6 +1,6 @@
 <?php defined('kexec') or die('Restricted access');
-const tmpl_dir = "tmpl";
-const pages_dir = "pages";
+const tmpl_dir = 'tmpl';
+const pages_dir = 'pages';
 
 // TODO: separate css per page
 
@@ -25,61 +25,60 @@ $includePopup = '
 <script src="js/popup.js"></script>';
 
 // initialize menu css classes
-$nav_agency_class = "";
-$nav_references_class = "";
-$nav_services_class = "";
-$nav_team_class = "";
-$nav_philosophy_class = "";
+$nav_agency_class = '';
+$nav_references_class = '';
+$nav_services_class = '';
+$nav_team_class = '';
+$nav_philosophy_class = '';
 
 // menus
 switch($page) {
-  case "agence":
-  case "agency":
-    $included_page = pages_dir."/agency.php";
-    $nav_agency_class = " active";
-    $agency_submenu = " opened";
+  case 'agence':
+  case 'agency':
+    $included_page = pages_dir.'/agency.php';
+    $nav_agency_class = ' active';
+    $agency_submenu = ' opened';
     $page_title = 'presentation';
     break;
-  case "references":
-  case "références":
-    $included_page = pages_dir."/references.php";
-    $nav_agency_class = " active";
-    $nav_references_class = " active";
+  case 'references':
+  case 'références':
+    $included_page = pages_dir.'/references.php';
+    $nav_agency_class = ' active';
+    $nav_references_class = ' active';
     $page_title = 'références';
     break;
-  case "prestations":
-  case "services":
-    $included_page = pages_dir."/services.php";
-    $nav_services_class = " active";
+  case 'prestations':
+  case 'services':
+    $included_page = pages_dir.'/services.php';
+    $nav_services_class = ' active';
     $inlineScripts.= '
 document.getElementById("inline-popups").style.display = "none";';
     $scripts.= $includeJQuery;
     $scripts.= $includePopup;
     break;
-  case "equipe":
-  case "équipe":
-  case "team":
-    $included_page = pages_dir."/team.php";
-    $nav_team_class = " active";
+  case 'equipe':
+  case 'équipe':
+  case 'team':
+    $included_page = pages_dir.'/team.php';
+    $nav_team_class = ' active';
     $page_title = 'équipe';
     break;
-  case "philosophie":
-  case "philosophy":
-    $included_page = pages_dir."/philosophy.php";
-    $nav_philosophy_class = " active";
+  case 'philosophie':
+  case 'philosophy':
+    $included_page = pages_dir.'/philosophy.php';
+    $nav_philosophy_class = ' active';
     break;
-  case "accueil":
-  case "home":
+  case 'accueil':
+  case 'home':
   case null:
   default:
-    $included_page = pages_dir."/home.php";
-    $page_title_full = "agence de communication à Lausanne - konsept";
-    $inlineScripts = null;
+    $included_page = pages_dir.'/home.php';
+    $page_title_full = 'agence de communication à Lausanne - konsept';
     $page_desc = 'Soutien administratif, expertise et conseil dans le domaine de l’habitat.';
     break;
 }
 
-$page_title_separator = " | ";
+$page_title_separator = ' | ';
 if (!$page_title) {
   $page_title = $page;
 }
