@@ -1,7 +1,7 @@
 <?php defined('kexec') or die('Restricted access'); ?>
 <ul class="team-list">
     <li><a class="presentation-keko" href="mailto:keko@konsept.ch" itemscope itemtype="http://schema.org/Person">
-            <img class="team-photo" src="images/team/keko.png" alt="keko razzano">
+            <img class="team-photo" src="images/team/keko.png" alt="keko razzano" itemprop="image">
             <div class="person_info">
                 <h3 itemprop="name">keko razzano</h3>
                 <span itemprop="jobTitle">directeur</span><span>& fondateur de konsept.nu</span>
@@ -11,7 +11,7 @@
             </div>
         </a>
     <li><a class="presentation-gloria" href="mailto:gloria@konsept.ch" itemscope itemtype="http://schema.org/Person">
-            <img class="team-photo" src="images/team/gloria.png" alt="gloria bellonia">
+            <img class="team-photo" src="images/team/gloria.png" alt="gloria bellonia" itemprop="image">
             <div class="person_info">
                 <h3 itemprop="name">gloria bellonia</h3>
                 <span itemprop="jobTitle">chef de projet</span>
@@ -25,7 +25,7 @@
             </div>
         </a>
     <li><a class="presentation-tim" href="mailto:tim@konsept.ch" itemscope itemtype="http://schema.org/Person">
-            <img class="team-photo" src="images/team/tim.png" alt="tim hansen">
+            <img class="team-photo" src="images/team/tim.png" alt="tim hansen" itemprop="image">
             <div class="person_info">
                 <h3 itemprop="name">tim hansen</h3>
                 <span itemprop="jobTitle">chef de projet</span>
@@ -39,7 +39,7 @@
             </div>
         </a>
     <li><a class="presentation-jacob" href="mailto:jacob@konsept.ch" itemscope itemtype="http://schema.org/Person">
-            <img class="team-photo" src="images/team/jacob.png" alt="jacob grabowski">
+            <img class="team-photo" src="images/team/jacob.png" alt="jacob grabowski" itemprop="image">
             <div class="person_info">
                 <h3 itemprop="name">jacob grabowski</h3>
                 <span itemprop="jobTitle">chef de projet</span>
@@ -53,7 +53,7 @@
             </div>
         </a>
     <li><a class="presentation-jonathan" href="mailto:jo@konsept.ch" itemscope itemtype="http://schema.org/Person">
-            <img class="team-photo" src="images/team/jonathan.png" alt="jonathan cudilleiro">
+            <img class="team-photo" src="images/team/jonathan.png" alt="jonathan cudilleiro" itemprop="image">
             <div class="person_info">
                 <h3 itemprop="name">jonathan cudilleiro</h3>
                 <span itemprop="jobTitle">chef de projet</span><span>konsept of Charity</span>
