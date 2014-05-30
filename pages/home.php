@@ -1,5 +1,5 @@
 <?php defined('kexec') or die('Restricted access'); ?>
-<nav class="" role="navigation">
+<nav role="navigation">
 <ul class="homepage-links-holder">
   <li><a class="agency-link" href="agence"><span>agence</span></a>
   <li><a class="ikon-link" href="prestations"><span>ikon</span></a>

@@ -1,11 +1,9 @@
 <?php defined('kexec') or die('Restricted access'); ?>
-  <nav role="navigation" id="menu-holder">
+  <nav id="menu-holder" role="navigation">
   <ul id="nav">
-    <li id="nav-agency" class="parent<?=$nav_agency_class;?>">
-      <a href="agence">agence</a>
+    <li id="nav-agency" class="parent<?=$nav_agency_class;?>"><a href="agence">agence</a>
       <ul class="nav-child">
-        <li id="nav-references" class="<?=$nav_references_class;?>">
-          <a href="references">références</a>
+        <li id="nav-references" class="<?=$nav_references_class;?>"><a href="references">références</a>
       </ul>
     <li id="nav-services" class="<?=$nav_services_class;?>"><a href="prestations">prestations</a>
     <li id="nav-team" class="<?=$nav_team_class;?>"><a href="equipe">équipe</a>

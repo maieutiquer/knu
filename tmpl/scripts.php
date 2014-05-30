@@ -1,2 +1,3 @@
-<?php defined('kexec') or die('Restricted access'); ?>
-<?=$scripts?>
+<?php defined('kexec') or die('Restricted access');
+
+echo $scripts;
