@@ -7,7 +7,7 @@
                 <span itemprop="jobTitle">directeur</span><span>& fondateur de konsept.nu</span>
                 <span class="mail_icon"></span>
                 <meta itemprop="email" content="keko@konsept.ch">
-                <meta itemprop="affiliation" content="konsept.nu">
+                <meta itemprop="affiliation" content="konsept">
             </div>
         </a>
     <li><a class="presentation-gloria" href="mailto:gloria@konsept.ch" itemscope itemtype="http://schema.org/Person">
@@ -21,7 +21,7 @@
                 </ul>
                 <span class="mail_icon"></span>
                 <meta itemprop="email" content="gloria@konsept.ch">
-                <meta itemprop="affiliation" content="konsept.nu">
+                <meta itemprop="affiliation" content="konsept">
             </div>
         </a>
     <li><a class="presentation-tim" href="mailto:tim@konsept.ch" itemscope itemtype="http://schema.org/Person">
@@ -35,7 +35,7 @@
                 </ul>
                 <span class="mail_icon"></span>
                 <meta itemprop="email" content="tim@konsept.ch">
-                <meta itemprop="affiliation" content="konsept.nu">
+                <meta itemprop="affiliation" content="konsept">
             </div>
         </a>
     <li><a class="presentation-jacob" href="mailto:jacob@konsept.ch" itemscope itemtype="http://schema.org/Person">
@@ -49,7 +49,7 @@
                 </ul>
                 <span class="mail_icon"></span>
                 <meta itemprop="email" content="jacob@konsept.ch">
-                <meta itemprop="affiliation" content="konsept.nu">
+                <meta itemprop="affiliation" content="konsept">
             </div>
         </a>
     <li><a class="presentation-jonathan" href="mailto:jo@konsept.ch" itemscope itemtype="http://schema.org/Person">
@@ -59,7 +59,7 @@
                 <span itemprop="jobTitle">chef de projet</span><span>konsept of Charity</span>
                 <span class="mail_icon"></span>
                 <meta itemprop="email" content="jo@konsept.ch">
-                <meta itemprop="affiliation" content="konsept.nu">
+                <meta itemprop="affiliation" content="konsept">
             </div>
         </a>
     <li><div class="team-description">
