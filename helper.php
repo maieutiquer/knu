@@ -91,7 +91,7 @@ if (!$page_title_full) {
 }
 
 if ($inlineScripts != null) {
-    $inlineScripts.= '
+  $inlineScripts.= '
 </script>';
-    $scripts.= $inlineScripts;
+  $scripts.= $inlineScripts;
 }
