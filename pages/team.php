@@ -67,6 +67,6 @@
 Une équipe de professionnels engagés et passionnés qui met ses&nbsp;compétences pour oeuvrer au&nbsp;sein de
 l’agence <strong>konsept</strong> et des associations <strong>konsept of Charity</strong> et <strong>human konsept</strong>
 Animés par des valeurs communes, nous collaborons sur tous les projets
-permettant ainsi de conjuguer nos talents individuels à l’enthousiasme... <strong>kollectif</strong> !
+permettant ainsi de conjuguer nos talents individuels à&nbsp;l’enthousiasme... <strong>kollectif</strong> !
     </div>
 </ul>
