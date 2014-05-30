@@ -12,7 +12,8 @@ $page_desc = null;
 $page = filter_input(INPUT_GET, 'page', FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
 
 $scripts = '';
-$inlineScripts = '<script>';
+$inlineScripts = '
+<script>';
 $includeJQuery = '
 <!--[if lt IE 9]>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
