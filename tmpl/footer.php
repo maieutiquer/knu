@@ -1,6 +1,6 @@
 <?php defined('kexec') or die('Restricted access'); ?>
-<address id="address" itemscope itemtype="http://schema.org/Organization">
-  <a id="homepage-link-footer" href=".">
+<address id="address" itemscope itemtype="http://schema.org/Organization" itemref="logo">
+  <a id="homepage-link-footer" href="./">
     <span itemprop="name">konsept</span>
   </a>
   <span class="sep">|</span>
