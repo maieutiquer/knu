@@ -8,7 +8,7 @@
     <li id="nav-services" class="<?=$nav_services_class;?>"><a href="prestations">prestations</a>
     <li id="nav-team" class="<?=$nav_team_class;?>"><a href="equipe">équipe</a>
     <li id="nav-philosophy" class="<?=$nav_philosophy_class;?>"><a href="philosophie">philosophie</a>
-    <li id="nav-shopk2"><a href="k2" target="_blank">shop k²</a>
-    <li id="nav-kofc"><a href="kofc" target="_blank">konsept of&nbsp;Charity</a>
+    <li id="nav-shopk2"><a href="http://k2.konsept.ch/" target="_blank">shop k²</a>
+    <li id="nav-kofc"><a href="http://kofc.ch/" target="_blank">konsept of&nbsp;Charity</a>
   </ul>
   </nav>
