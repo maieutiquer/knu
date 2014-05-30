@@ -2,19 +2,15 @@
 const tmpl_dir = "tmpl";
 const pages_dir = "pages";
 
+// TODO: separate css per page
+
 // declare page title and description
 $page_title_full = null;
 $page_desc_full = null;
 $page = filter_input(INPUT_GET, 'page', FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
 
 $scripts = '';
-$inlineScripts = '
-<script>';
-$inlineScripts.= '
-function selectMenu(){
-var menu=document.getElementById("select-menu");
-document.location.href = menu.options[menu.selectedIndex].value;
-}';
+$inlineScripts = '';
 $includeJQuery = '
 <!--[if lt IE 9]>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -28,9 +24,6 @@ $includeZepto = '
 $includePopup = '
 <script src="js/jquery.colorbox-min.js"></script>
 <script src="js/popup.js"></script>';
-
-// TODO: inline critical CSS
-$inlineStyle='';
 
 // initialize menu css classes
 $nav_agency_class = "";
@@ -58,8 +51,9 @@ switch($page) {
     $included_page = pages_dir."/services.php";
     $nav_services_class = " active";
     $inlineScripts.= '
-document.getElementById("inline-popups").style.display = "none";
-';
+<script>';
+    $inlineScripts.= '
+document.getElementById("inline-popups").style.display = "none";';
     $scripts.= $includeJQuery;
     $scripts.= $includePopup;
     break;

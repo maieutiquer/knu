@@ -14,16 +14,3 @@
     <li id="nav-kofc"><a href="kofc" target="_blank">konsept of&nbsp;Charity</a>
   </ul>
   </nav>
-  <div id="select-menu-holder">
-    <select id="select-menu" onchange="selectMenu()">
-      <option value="" disabled selected>&gt;&gt; menu &lt;&lt;
-      <option value="agence">agence
-      <option value="references">références
-      <option value="prestations">prestations
-      <option value="equipe">équipe
-      <option value="philosophie">philosophie
-      <option value="k2">shop k²
-      <option value="kofc">konsept of Charity
-      <option value="humankonsept">human konsept
-    </select>
-  </div>
