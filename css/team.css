@@ -120,10 +120,7 @@
         }
         .presentation-keko{
             background: #fffeff; /* Old browsers */
-            background: -moz-linear-gradient(top,  #fffeff 0%, #8166a3 100%); /* FF3.6+ */
-            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fffeff), color-stop(100%,#8166a3)); /* Chrome,Safari4+ */
             background: -webkit-linear-gradient(top,  #fffeff 0%,#8166a3 100%); /* Chrome10+,Safari5.1+ */
-            background: -ms-linear-gradient(top,  #fffeff 0%,#8166a3 100%); /* IE10+ */
             background: linear-gradient(to bottom,  #fffeff 0%,#8166a3 100%); /* W3C */
         }
             .presentation-keko > div{
@@ -131,10 +128,7 @@
             }
         .presentation-gloria{
             background: #fffeff; /* Old browsers */
-            background: -moz-linear-gradient(top,  #fffeff 0%, #c00101 100%); /* FF3.6+ */
-            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fffeff), color-stop(100%,#c00101)); /* Chrome,Safari4+ */
             background: -webkit-linear-gradient(top,  #fffeff 0%,#c00101 100%); /* Chrome10+,Safari5.1+ */
-            background: -ms-linear-gradient(top,  #fffeff 0%,#c00101 100%); /* IE10+ */
             background: linear-gradient(to bottom,  #fffeff 0%,#c00101 100%); /* W3C */
         }
             .presentation-gloria > div{
@@ -142,10 +136,7 @@
             }
         .presentation-tim{
             background: #fffeff; /* Old browsers */
-            background: -moz-linear-gradient(top,  #fffeff 0%, #0170c0 100%); /* FF3.6+ */
-            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fffeff), color-stop(100%,#0170c0)); /* Chrome,Safari4+ */
             background: -webkit-linear-gradient(top,  #fffeff 0%,#0170c0 100%); /* Chrome10+,Safari5.1+ */
-            background: -ms-linear-gradient(top,  #fffeff 0%,#0170c0 100%); /* IE10+ */
             background: linear-gradient(to bottom,  #fffeff 0%,#0170c0 100%); /* W3C */
         }
             .presentation-tim > div{
@@ -153,10 +144,7 @@
             }
         .presentation-jacob{
             background: #fffeff; /* Old browsers */
-            background: -moz-linear-gradient(top,  #fffeff 0%, #01b0a0 100%); /* FF3.6+ */
-            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fffeff), color-stop(100%,#01b0a0)); /* Chrome,Safari4+ */
             background: -webkit-linear-gradient(top,  #fffeff 0%,#01b0a0 100%); /* Chrome10+,Safari5.1+ */
-            background: -ms-linear-gradient(top,  #fffeff 0%,#01b0a0 100%); /* IE10+ */
             background: linear-gradient(to bottom,  #fffeff 0%,#01b0a0 100%); /* W3C */
         }
             .presentation-jacob > div{
@@ -164,10 +152,7 @@
             }
         .presentation-jonathan{
 			background: #fffeff; /* Old browsers */
-			background: -moz-linear-gradient(top,  #fffeff 0%, #9bbb5a 100%); /* FF3.6+ */
-			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fffeff), color-stop(100%,#9bbb5a)); /* Chrome,Safari4+ */
 			background: -webkit-linear-gradient(top,  #fffeff 0%,#9bbb5a 100%); /* Chrome10+,Safari5.1+ */
-			background: -ms-linear-gradient(top,  #fffeff 0%,#9bbb5a 100%); /* IE10+ */
 			background: linear-gradient(to bottom,  #fffeff 0%,#9bbb5a 100%); /* W3C */
 		}
             .presentation-jonathan > div{
