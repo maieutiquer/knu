@@ -6,7 +6,7 @@
 #cboxTitle{margin:0;}
 #cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
 #cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
-.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none; -ms-interpolation-mode:bicubic;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none;}
 .cboxIframe{width:100%; height:100%; display:block; border:0;}
 #colorbox, #cboxContent, #cboxLoadedContent{-moz-box-sizing:content-box; box-sizing:content-box;}
 
@@ -16,7 +16,6 @@
   .cboxIframe{background:#fff;}
   #cboxError{padding:50px; border:1px solid #ccc;}
   #cboxLoadedContent{background:#000; padding:4px 0 0;}
-  /*#cboxLoadingGraphic{background:url(../images/icons/loading.gif) no-repeat center center;}*/
   #cboxLoadingOverlay{background:#000;}
   #cboxTitle{position:absolute; top:-22px; left:0; color:#000;}
   #cboxCurrent{position:absolute; top:-22px; right:205px; text-indent:-9999px;}
@@ -33,8 +32,3 @@ position:absolute; top:-20px; background:url(../images/controls.png) no-repeat 0
   #cboxNext:hover{background-position:-25px -25px;}
   #cboxClose{background-position:-50px 0px; right:0;}
   #cboxClose:hover{background-position:-50px -25px;}
-  .cboxSlideshow_on #cboxPrevious, .cboxSlideshow_off #cboxPrevious{right:66px;}
-  .cboxSlideshow_on #cboxSlideshow{background-position:-75px -25px; right:44px;}
-  .cboxSlideshow_on #cboxSlideshow:hover{background-position:-100px -25px;}
-  .cboxSlideshow_off #cboxSlideshow{background-position:-100px 0px; right:44px;}
-  .cboxSlideshow_off #cboxSlideshow:hover{background-position:-75px -25px;}
