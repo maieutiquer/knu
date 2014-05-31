@@ -1,271 +1,170 @@
+.konseptnu,
+.charity-percentage,
+.philosophy-page,
+.direct-help {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
 
-.philosophy-page {
-    display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	
-    -webkit-flex-flow: row wrap;
-	-moz-flex-flow: row wrap;
-	-ms-flex-flow: row wrap;
-	flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  -moz-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
 
-    -webkit-justify-content: space-between;
-	-moz-justify-content: space-between;
-	-ms-justify-content: space-between;
-	justify-content: space-between;
-	
-    -webkit-align-content: space-between;
-    -moz-align-content: space-between;
-    -ms-align-content: space-between;
-    align-content: space-between;
-	
-    -webkit-align-items: center;
-	-moz-align-items: center;
-	-ms-align-items: center;
-	align-items: center;
-    
-    min-height: 1077px;
-	
-    color: #fff;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+
+  -webkit-align-content: space-between;
+  -moz-align-content: space-between;
+  -ms-align-content: space-between;
+  align-content: space-between;
+
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
 }
-.philosophy-page p {
+.philosophy-page {
+  min-height: 1077px;
+  color: #fff;
+}
+  .philosophy-page p {
     font-size: 19px;
     letter-spacing: 1px;
-}
+  }
 .konseptnu-desc,
 .charity-percentage-desc,
 .direct-help-desc {
-	max-width: 100%;
-    padding: 0 15px;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  max-width: 100%;
+  padding: 0 15px;
+  margin: 11px 12px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-.konseptnu{
-    display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	
-    -webkit-flex-flow: row wrap;
-	-moz-flex-flow: row wrap;
-	-ms-flex-flow: row wrap;
-	flex-flow: row wrap;
-
-    -webkit-justify-content: space-between;
-	-moz-justify-content: space-between;
-	-ms-justify-content: space-between;
-	justify-content: space-between;
-	
-    -webkit-align-content: space-between;
-    -moz-align-content: space-between;
-    -ms-align-content: space-between;
-    align-content: space-between;
-	
-    -webkit-align-items: center;
-	-moz-align-items: center;
-	-ms-align-items: center;
-	align-items: center;
-	
-    width: 450px;
-    min-height: 779px;    
+.konseptnu,
+.charity-percentage {
+  width: 450px;
+  min-height: 779px;    
 }
-    .konseptnu-logo{
-		display: block;
-        background-image: url(../images/sprites_philosophie.png);
-    
-        width: 426px;
-        height: 207px;
-        margin: 11px 12px;
-    }
-    .konseptnu-desc{
-        min-height: 550px;
-        width: 426px;
-        margin: 11px 12px;
-        
-        background-color: #4d4d4d;
-    }
-    .konseptnu-desc > p{
-        line-height: 31px;
-    }
-.charity-percentage{
-    display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	
-    -webkit-flex-flow: row wrap;
-	-moz-flex-flow: row wrap;
-	-ms-flex-flow: row wrap;
-	flex-flow: row wrap;
+  .konseptnu-logo,
+  .charity-percentage-kofc,
+  .direct-help-percentage {
+    display: block;
+    background-image: url(../images/sprites_philosophie.png);
+    margin: 11px 12px;
+  }
+  .konseptnu-logo{
+    width: 426px;
+    height: 207px;
+  }
+  .konseptnu-desc{
+    min-height: 550px;
+    width: 426px;
 
-    -webkit-justify-content: space-between;
-	-moz-justify-content: space-between;
-	-ms-justify-content: space-between;
-	justify-content: space-between;
-	
-    -webkit-align-content: space-between;
-    -moz-align-content: space-between;
-    -ms-align-content: space-between;
-    align-content: space-between;
-	
-    -webkit-align-items: center;
-	-moz-align-items: center;
-	-ms-align-items: center;
-	align-items: center;
-    
-    width: 450px; 
-    min-height: 779px;
-}
-    .charity-percentage-desc{
-        min-height: 331px;
-        width: 426px;
-        margin: 11px 12px;
-        
-        background-color: #00b0a0;
-    }
-    .charity-percentage-desc > p{
-        line-height: 35px;
-    }
-    .charity-percentage-kofc{
-		display: block;
-        background-image: url(../images/sprites_philosophie.png);
-        background-position: 0px -207px;
-        
-        width: 426px;
-        height: 426px;
-        margin: 11px 12px;
-    }
+    background-color: #4d4d4d;
+  }
+  .konseptnu-desc > p{
+    line-height: 31px;
+  }
+  .charity-percentage-desc{
+    min-height: 331px;
+    width: 426px;
+
+    background-color: #00b0a0;
+  }
+  .charity-percentage-desc > p{
+    line-height: 35px;
+  }
+  .charity-percentage-kofc{
+    background-position: 0px -207px;
+
+    width: 426px;
+    height: 426px;
+  }
 .direct-help{
-    display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	
-    -webkit-flex-flow: row wrap;
-	-moz-flex-flow: row wrap;
-	-ms-flex-flow: row wrap;
-	flex-flow: row wrap;
-
-    -webkit-justify-content: space-between;
-	-moz-justify-content: space-between;
-	-ms-justify-content: space-between;
-	justify-content: space-between;
-	
-    -webkit-align-content: space-around;
-    -moz-align-content: space-around;
-    -ms-align-content: space-around;
-    align-content: space-around;
-	
-    -webkit-align-items: center;
-	-moz-align-items: center;
-	-ms-align-items: center;
-	align-items: center;
-	
-    width: 900px;
+  width: 900px;
 }
-    .direct-help-percentage{   
-		display: block; 
-        background-image: url(../images/sprites_philosophie.png);
-        background-position: 0px -410px;
-        background-size: 276px;
-        
-        width: 276px;
-        height: 276px;
-        margin: 11px 12px;
-    }
-    .direct-help-desc{
-        width: 576px;
-        margin: 11px 12px;
-        min-height: 276px;
-        
-        background-color: #00b0a0;
-    }
-    .direct-help-desc > p{
-        line-height: 33px;
-    }
+  .direct-help-percentage{
+    background-position: 0px -410px;
+    background-size: 276px;
+
+    width: 276px;
+    height: 276px;
+  }
+  .direct-help-desc{
+    width: 576px;
+    min-height: 276px;
+
+    background-color: #00b0a0;
+  }
+  .direct-help-desc > p{
+    line-height: 33px;
+  }
 
 @media screen and (max-width: 924px) {
-    .philosophy-page {
-        -moz-justify-content: center;
-        -webkit-justify-content: center;
-        -ms-justify-content: center;
-        justify-content: center;
-    }
-    .philosophy-page p {
-        margin-bottom: 10px;
-    }
-    .direct-help {
-		-moz-justify-content: center;
-        -webkit-justify-content: center;
-        -ms-justify-content: center;
-        justify-content: center;        
-    }
-    .charity-percentage-desc {
-		-webkit-order: 2;
-        order: 2;
-    }
-    
-    .konseptnu-desc,
-	.charity-percentage-desc,
-	.direct-help-desc {
-        min-height: 0;
-    }
+  .philosophy-page p {
+    margin-bottom: 10px;
+  }
+  .charity-percentage-desc {
+    -webkit-order: 2;
+    order: 2;
+  }
+  .konseptnu-desc,
+  .charity-percentage-desc,
+  .direct-help-desc {
+    min-height: 0;
+  }
 }
 @media screen and (max-width: 924px) and (min-width: 625px) {
-    .konseptnu,
-    .konseptnu-desc,
-    .charity-percentage,
-    .charity-percentage-desc,
-	.direct-help,
-	.charity-percentage-desc{
-        width: 600px;
-        min-height: initial;
-    }
-    .charity-percentage-kofc,
-    .direct-help-percentage {
-        background-size: 576px;
-        
-        width: 576px;
-        height: 576px;
-    }
-    .konseptnu-logo {
-        width: 576px;
-		height: 280px;
-		
-        background-size: 576px;
-    }
-	.konseptnu-desc{
-		width: 576px;
-	}
-    .charity-percentage-kofc {
-        background-position: 0 -280px;
-    }
-    .direct-help-percentage {
-        background-position: 0 -856px;
-    }
+  .konseptnu,
+  .konseptnu-desc,
+  .charity-percentage,
+  .charity-percentage-desc,
+  .direct-help,
+  .charity-percentage-desc{
+    width: 600px;
+    min-height: initial;
+  }
+  .konseptnu-logo,
+  .charity-percentage-kofc,
+  .direct-help-percentage {
+    width: 576px;
+    height: 576px;
+    background-size: 576px;
+  }
+  .konseptnu-logo {
+    height: 280px;
+  }
+  .konseptnu-desc{
+    width: 576px;
+  }
+  .charity-percentage-kofc {
+    background-position: 0 -280px;
+  }
+  .direct-help-percentage {
+    background-position: 0 -856px;
+  }
 }
 @media screen and (max-width: 624px) {
-    
-    .konseptnu-logo	{
-        background-size: 276px;
-        width: 276px;
-        height: 133px;
-    }
-    .konseptnu-desc,
-    .charity-percentage-desc,
-	.charity-percentage-desc{
-		width: 276px;
-	}
-    .charity-percentage-kofc {
-        background-position: 0px -132px;
-		width: 276px;
-        height: 277px;
-        background-size: 100%;
-    }
+  .konseptnu-logo	{
+    width: 276px;
+    height: 133px;
+    background-size: 276px;
+  }
+  .konseptnu-desc,
+  .charity-percentage-desc,
+  .charity-percentage-desc{
+    width: 276px;
+  }
+  .charity-percentage-kofc {
+    width: 276px;
+    height: 277px;
+    background-size: 100%;
+    background-position: 0px -132px;
+  }
 }
