@@ -1,179 +1,176 @@
 
 .team-list{
-    display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	
-    -webkit-flex-flow: row wrap;
-	-moz-flex-flow: row wrap;
-	-ms-flex-flow: row wrap;
-	flex-flow: row wrap;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
 
-    -webkit-justify-content: space-between;
-	-moz-justify-content: space-between;
-	-ms-justify-content: space-between;
-	justify-content: space-between;
-	
-    -webkit-align-content: space-between;
-    -moz-align-content: space-between;
-    -ms-align-content: space-between;
-    align-content: space-between;
-	
-    -webkit-align-items: stretch;
-	-moz-align-items: stretch;
-	-ms-align-items: stretch;
-	align-items: stretch;
-    
-    width: 900px;
-    min-height: 574px;
-    margin: 0;
-    padding:0;
-    list-style: none;
+  -webkit-flex-flow: row wrap;
+  -moz-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+
+  -webkit-align-content: space-between;
+  -moz-align-content: space-between;
+  -ms-align-content: space-between;
+  align-content: space-between;
+
+  -webkit-align-items: stretch;
+  -moz-align-items: stretch;
+  -ms-align-items: stretch;
+  align-items: stretch;
+
+  width: 900px;
+  min-height: 574px;
+  margin: 0;
+  padding:0;
+  list-style: none;
 }
-    .team-list a{
-        display: block;
-        position: relative;
-        overflow: hidden;
-        
-        width: 274px;
-        height: 274px;
-        margin: 11px 12px;
-        
-        border: 1px solid #b5b5b5;
-    }
-        .person_info{
-            display: block;
-            position: absolute;
-            left: 137px;
-            top: 137px;
-            
-            width: 137px;
-            height: 137px;
-            
-            color: white;
-            line-height: 20px;
-        }
-        .person_info > h3{
-            width: 30px;
-            margin: 10px 0px 0px 10px;
-            
-            font-size: 15px; 
-        }
-        .person_info span{
-            display: block;
-            
-            width: 120px;
-            margin: 0px 0px 0px 10px;
-            
-            font-size: 17px;
-        }
-        .person_info > span:first-of-type{
-            margin: 23px 0px 0px 10px;
-        }
-        .position_list{
-            margin: 0px;
-            padding: 0px 0px 0px 22px;
-            
-            list-style: none;
-        }
-        .position_list > li:before{
-            content: "›";
-            position: absolute;
-            margin-left: -12px;
-        }
-        .mail_icon{
-            display: block;
-            position: absolute;
-            top: 118px;
-            left: 103px;
-            
-            width: 25px;
-            height: 15px;
-        
-            background-image: url(../images/sprites.png);
-            background-position: -96px 24px;
-        }
-        .position_list > li{
-            font-size: 17px;
-        }
-        .team-photo{
-            float: right;
-            width: 269px;
-            /*height: 350px;*/
-            position: relative;
-            top: -26px;
-        }
-    .team-description{
-        background-color: #4d4d4d;
-        width: 276px;
-        height: 276px;
-        margin: 11px 12px;
-        
-        color: white;
-        font-size: 17px;
-    }
-        .team-description > p{
-            padding: 15px 10px 0px 15px; 
-            line-height: 21px;
-        }
-        .presentation-keko{
-            background: #fffeff; /* Old browsers */
-            background: -webkit-linear-gradient(top,  #fffeff 0%,#8166a3 100%); /* Chrome10+,Safari5.1+ */
-            background: linear-gradient(to bottom,  #fffeff 0%,#8166a3 100%); /* W3C */
-        }
-            .presentation-keko > div{
-                background-color: rgba(129, 102, 163, 0.92);
-            }
-        .presentation-gloria{
-            background: #fffeff; /* Old browsers */
-            background: -webkit-linear-gradient(top,  #fffeff 0%,#c00101 100%); /* Chrome10+,Safari5.1+ */
-            background: linear-gradient(to bottom,  #fffeff 0%,#c00101 100%); /* W3C */
-        }
-            .presentation-gloria > div{
-                background-color: rgba(192, 1, 1, 0.92);
-            }
-        .presentation-tim{
-            background: #fffeff; /* Old browsers */
-            background: -webkit-linear-gradient(top,  #fffeff 0%,#0170c0 100%); /* Chrome10+,Safari5.1+ */
-            background: linear-gradient(to bottom,  #fffeff 0%,#0170c0 100%); /* W3C */
-        }
-            .presentation-tim > div{
-                background-color: rgba(1, 112, 192, 0.92);
-            }
-        .presentation-jacob{
-            background: #fffeff; /* Old browsers */
-            background: -webkit-linear-gradient(top,  #fffeff 0%,#01b0a0 100%); /* Chrome10+,Safari5.1+ */
-            background: linear-gradient(to bottom,  #fffeff 0%,#01b0a0 100%); /* W3C */
-        }
-            .presentation-jacob > div{
-                background-color: rgba(1, 176, 160, 0.92);
-            }
-        .presentation-jonathan{
-			background: #fffeff; /* Old browsers */
-			background: -webkit-linear-gradient(top,  #fffeff 0%,#9bbb5a 100%); /* Chrome10+,Safari5.1+ */
-			background: linear-gradient(to bottom,  #fffeff 0%,#9bbb5a 100%); /* W3C */
-		}
-            .presentation-jonathan > div{
-                background-color: rgba(155, 187, 90, 0.92);
-            }
+.team-list a{
+  display: block;
+  position: relative;
+  overflow: hidden;
 
+  width: 274px;
+  height: 274px;
+  margin: 11px 12px;
+
+  border: 1px solid #b5b5b5;
+}
+  .person_info{
+    display: block;
+    position: absolute;
+    left: 137px;
+    top: 137px;
+
+    width: 137px;
+    height: 137px;
+
+    color: white;
+    line-height: 20px;
+  }
+  .person_info > h3{
+    width: 30px;
+    margin: 10px 0px 0px 10px;
+
+    font-size: 15px; 
+  }
+  .person_info span{
+    display: block;
+
+    width: 120px;
+    margin: 0px 0px 0px 10px;
+
+    font-size: 17px;
+  }
+  .person_info > span:first-of-type{
+    margin: 23px 0px 0px 10px;
+  }
+  .position_list{
+    margin: 0px;
+    padding: 0px 0px 0px 22px;
+
+    list-style: none;
+  }
+  .position_list > li:before{
+    content: "›";
+    position: absolute;
+    margin-left: -12px;
+  }
+  .mail_icon{
+    display: block;
+    position: absolute;
+    top: 118px;
+    left: 103px;
+
+    width: 25px;
+    height: 15px;
+
+    background-image: url(../images/sprites.png);
+    background-position: -96px 24px;
+  }
+  .position_list > li{
+    font-size: 17px;
+  }
+  .team-photo{
+    float: right;
+    width: 269px;
+    position: relative;
+    top: -26px;
+  }
+.team-description{
+  background-color: #4d4d4d;
+  width: 276px;
+  height: 276px;
+  margin: 11px 12px;
+
+  color: white;
+  font-size: 17px;
+}
+  .team-description > p{
+    padding: 15px 10px 0px 15px; 
+    line-height: 21px;
+  }
+  .presentation-keko{
+    background: #fffeff;
+    background: -webkit-linear-gradient(top,  #fffeff 0%,#8166a3 100%); /* Chrome10+,Safari5.1+ */
+    background: linear-gradient(to bottom,  #fffeff 0%,#8166a3 100%);
+  }
+    .presentation-keko > div{
+      background-color: rgba(129, 102, 163, 0.92);
+    }
+  .presentation-gloria{
+    background: #fffeff;
+    background: -webkit-linear-gradient(top,  #fffeff 0%,#c00101 100%); /* Chrome10+,Safari5.1+ */
+    background: linear-gradient(to bottom,  #fffeff 0%,#c00101 100%);
+  }
+    .presentation-gloria > div{
+      background-color: rgba(192, 1, 1, 0.92);
+    }
+  .presentation-tim{
+    background: #fffeff;
+    background: -webkit-linear-gradient(top,  #fffeff 0%,#0170c0 100%); /* Chrome10+,Safari5.1+ */
+    background: linear-gradient(to bottom,  #fffeff 0%,#0170c0 100%);
+  }
+    .presentation-tim > div{
+      background-color: rgba(1, 112, 192, 0.92);
+    }
+  .presentation-jacob{
+    background: #fffeff;
+    background: -webkit-linear-gradient(top,  #fffeff 0%,#01b0a0 100%); /* Chrome10+,Safari5.1+ */
+    background: linear-gradient(to bottom,  #fffeff 0%,#01b0a0 100%);
+  }
+    .presentation-jacob > div{
+      background-color: rgba(1, 176, 160, 0.92);
+    }
+  .presentation-jonathan{
+    background: #fffeff;
+    background: -webkit-linear-gradient(top,  #fffeff 0%,#9bbb5a 100%); /* Chrome10+,Safari5.1+ */
+    background: linear-gradient(to bottom,  #fffeff 0%,#9bbb5a 100%);
+  }
+    .presentation-jonathan > div{
+      background-color: rgba(155, 187, 90, 0.92);
+    }
 
 @media screen and (max-width: 924px) {
-    .team-list {
-        width: 600px;
+  .team-list {
+    width: 600px;
 
-		-ms-justify-content: center;		
-		-ms-align-content: center;
-		-ms-align-items: center;
+    -ms-justify-content: center;		
+    -ms-align-content: center;
+    -ms-align-items: center;
 
-		margin: 0 auto;
-    }
+    margin: 0 auto;
+  }
 }
 @media screen and (max-width: 624px) {
-    .team-list {
-        width: 300px;
-    }
-    
+  .team-list {
+    width: 300px;
+  }
 }

@@ -1,127 +1,123 @@
 .agency_container{
-    display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	
-    -webkit-flex-flow: row wrap;
-	-moz-flex-flow: row wrap;
-	-ms-flex-flow: row wrap;
-	flex-flow: row wrap;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  -moz-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
 
-    -webkit-justify-content: space-between;
-	-moz-justify-content: space-between;
-	-ms-justify-content: space-between;
-	justify-content: space-between;
-	
-    -webkit-align-content: space-between;
-    -moz-align-content: space-between;
-    -ms-align-content: space-between;
-    align-content: space-between;
-	
-    -webkit-align-items: center;
-	-moz-align-items: center;
-	-ms-align-items: center;
-	align-items: center;  
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  
+  -webkit-align-content: space-between;
+  -moz-align-content: space-between;
+  -ms-align-content: space-between;
+  align-content: space-between;
+  
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;  
     
-    /*width: 900px;*/
-    width: 100%;
+  width: 100%;
 }
 .presentation-holder{
-    display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	
-	-webkit-flex-flow: row wrap;
-	-moz-flex-flow: row wrap;
-	-ms-flex-flow: row wrap;
-	flex-flow: row wrap;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  -moz-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
 
-    -webkit-justify-content: space-between;
-	-moz-justify-content: space-between;
-	-ms-justify-content: space-between;
-	justify-content: space-between;
-	
-    -webkit-align-content: space-between;
-    -moz-align-content: space-between;
-    -ms-align-content: space-between;
-    align-content: space-between;
-	
-    -webkit-align-items: center;
-	-moz-align-items: center;
-	-ms-align-items: center;
-	align-items: center; 
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  
+  -webkit-align-content: space-between;
+  -moz-align-content: space-between;
+  -ms-align-content: space-between;
+  align-content: space-between;
+  
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center; 
 
-    width: 300px;
-    
-    color: #fff; 
+  width: 300px;
+  color: #fff; 
 }
-    .presentation{
-        display: block;
-        width: 276px;
-        height: 276px;
-        margin: 11px 12px;
-
-        background-color: #8064a2;
-    }
-        .presentation > p{
-            padding: 10px 23px 17px 17px;
-        
-            letter-spacing:0.5px;        
-            line-height: 43px; 
-            font-size: 26px;
-        }
-    .values-list {
-        width: 276px;
-        height: 276px;
-        margin: 11px 12px;
-        
-        background-image: url(../images/sprites.png);
-        background-position: 0px -380px;
-    }
-        .values-list > ul{
-            display: block;
-            margin: 0px;
-            padding: 0px 8px 15px 19px;
-            
-            list-style-type: none;
-            line-height: 69px; 
-            font-size: 26px;
-        }
-            #value-ethics{
-                letter-spacing: 26px;
-            }    
-            #value-originality{
-                letter-spacing: 13px;
-            }
-            #value-consistency{
-                letter-spacing: 15px;
-            }
-            #value-pragmatism{
-                letter-spacing: 9.5px;
-            }
-.values-description{
-    /*width: 576px;*/
-    max-width: 576px;
+  .presentation{
+    display: block;
+    width: 276px;
+    height: 276px;
     margin: 11px 12px;
-    padding: 0 15px;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    
-    background-color: #ffffff; 
-    
-    line-height: 20px;    
+
+    background-color: #8064a2;
+  }
+    .presentation > p{
+      padding: 10px 23px 17px 17px;
+
+      letter-spacing:0.5px;        
+      line-height: 43px; 
+      font-size: 26px;
+    }
+  .values-list {
+    width: 276px;
+    height: 276px;
+    margin: 11px 12px;
+
+    background-image: url(../images/sprites.png);
+    background-position: 0px -380px;
+  }
+    .values-list > ul{
+      display: block;
+      margin: 0px;
+      padding: 0px 8px 15px 19px;
+
+      list-style-type: none;
+      line-height: 69px; 
+      font-size: 26px;
+    }
+      #value-ethics{
+        letter-spacing: 26px;
+      }    
+      #value-originality{
+        letter-spacing: 13px;
+      }
+      #value-consistency{
+        letter-spacing: 15px;
+      }
+      #value-pragmatism{
+        letter-spacing: 9.5px;
+      }
+.values-description{
+  max-width: 576px;
+  margin: 11px 12px;
+  padding: 0 15px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  background-color: #ffffff; 
+
+  line-height: 20px;    
 }
 .values-description dl {
-    margin: 16px 0 14px;
+  margin: 16px 0 14px;
 }
 .values-description dd {
-    margin: 0 0 5px 0;
+  margin: 0 0 5px 0;
 }
-
 
 @media screen and (max-width: 924px) {
   .presentation-holder {
@@ -129,13 +125,12 @@
     height: auto;
   }
 }
-
 @media screen and (max-width: 624px) {
-	.agency_container,
-	.presentation-holder {
-		width: 300px;
-	}
-	.values-description{
-		width: 276px;
-	}
+  .agency_container,
+  .presentation-holder {
+    width: 300px;
+  }
+  .values-description{
+    width: 276px;
+  }
 }

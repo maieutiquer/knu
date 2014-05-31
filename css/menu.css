@@ -1,52 +1,52 @@
 #select-menu-holder{
-    display: none;
+  display: none;
 } 
 #menu-holder{
-    width: 585px;
-    padding: 0px;
+  width: 585px;
+  padding: 0px;
 } 
 #nav{
-    display: block;
-    padding: 34px 0 0;
-    margin: 0;
-    
-    list-style: none;
+  display: block;
+  padding: 34px 0 0;
+  margin: 0;
+
+  list-style: none;
 }
-    #nav > li{
-        display: inline-block;
-        vertical-align: top;
-        margin-left: 30px;
-        text-align: center;
-    }
-    #nav > li:hover > a,
-    #nav > li.active > a{
-        font-family: "eras demi";
-    }
+  #nav > li{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+    text-align: center;
+  }
+  #nav > li:hover > a,
+  #nav > li.active > a{
+    font-family: "eras demi";
+  }
 .nav-child{
-    display: none;
-    padding: 0px;
-    position: absolute;
-    top: 36px;
-    left: 0px;
-    
-    list-style: none;
+  display: none;
+  padding: 0px;
+  position: absolute;
+  top: 36px;
+  left: 0px;
+  
+  list-style: none;
 }
-    .active .nav-child {
-        display: inline;
-    }
+  .active .nav-child {
+    display: inline;
+  }
 #nav-agency {
-    position: relative;
-    width: 55px;
+  position: relative;
+  width: 55px;
 }
-    #nav-agency:hover > a,
-    #nav-agency.active > a{
-        color: #8064a2;
-    }
-    #nav-agency .nav-child li:hover,
-    #nav-agency .nav-child .active    {
-        font-family: "eras demi";
-        color: #8064a2;
-    }
+  #nav-agency:hover > a,
+  #nav-agency.active > a{
+    color: #8064a2;
+  }
+  #nav-agency .nav-child li:hover,
+  #nav-agency .nav-child .active    {
+    font-family: "eras demi";
+    color: #8064a2;
+  }
 #nav-services {
   width: 84px;
 }
@@ -57,10 +57,10 @@
 #nav-team {
   width: 52px;
 }
-    #nav-team:hover,
-    #nav-team.active{
-        color: #0070c0;
-    }
+  #nav-team:hover,
+  #nav-team.active{
+    color: #0070c0;
+  }
 #nav-philosophy {
   width: 87px;
 }
@@ -70,61 +70,58 @@
 #nav-shopk2 {
   width: 57px;
 }
-    #nav-kofc:hover{
-        color: #9bbb59;
-    }
+  #nav-kofc:hover{
+    color: #9bbb59;
+  }
 li#nav-kofc {
   width: 70px;
   text-align: left;
 }
-    #nav-philosophy:hover,
-    #nav-philosophy.active{
-        color: #00b0a0;
-    }
+  #nav-philosophy:hover,
+  #nav-philosophy.active{
+    color: #00b0a0;
+  }
 .nav-child{
-    display: none;
+  display: none;
 }
 
 @media screen and (max-width: 924px) {
-    #menu-holder {
-        margin: 0 auto;
-        width: 582px;
-    }
-    #nav {
-        margin: 0 auto;
-        padding: 24px 0;
-    }
-	#nav > li{
-		margin-left: 35px; 
-	}
+  #menu-holder {
+    margin: 0 auto;
+    width: 582px;
+  }
+  #nav {
+    margin: 0 auto;
+    padding: 24px 0;
+  }
+  #nav > li{
+    margin-left: 35px; 
+  }
 }
-
 @media screen and (max-width: 924px) and (min-width: 625px) {
-    #nav > li#nav-agency {
-        margin-left: 0;
-    }
+  #nav > li#nav-agency {
+    margin-left: 0;
+  }
 }
 @media screen and (max-width: 624px) {
-    #menu-holder {
-        width: 276px;
-    }
-    .nav-child {
-        display: inline;
-    }
-    #nav li,
-    #nav .nav-child > li {
-        display: block;
-        width: auto;
-        margin-left: 30px;
-        margin: 12px auto;
-        text-align: center;
-    }
-    #nav a {
-        padding: 5px;
-    }
-    
-    #nav-agency .nav-child {
-        position: static;
-    }
-    
+  #menu-holder {
+    width: 276px;
+  }
+  .nav-child {
+    display: inline;
+  }
+  #nav li,
+  #nav .nav-child > li {
+    display: block;
+    width: auto;
+    margin-left: 30px;
+    margin: 12px auto;
+    text-align: center;
+  }
+  #nav a {
+    padding: 5px;
+  }
+  #nav-agency .nav-child {
+    position: static;
+  }
 }
