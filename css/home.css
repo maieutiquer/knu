@@ -1,0 +1,164 @@
+
+.homepage-links-holder {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+    display: flex;
+    
+	-webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+    
+	-webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+	justify-content: space-between;
+    
+	-webkit-align-content: space-between;
+    -moz-align-content: space-between;
+    -ms-align-content: space-between;
+    align-content: space-between;
+    
+	-webkit-align-items: stretch;
+    -moz-align-items: stretch;
+    -ms-align-items: stretch;
+    align-items: stretch;
+    
+    min-height: 574px;
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+.homepage-links-holder a{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+    display: flex;
+	
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+	
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+	justify-content: center;
+    
+    width: 276px;
+    height: 276px;
+    
+    font-size: 32px;
+    margin: 11px 12px;
+}
+.homepage-links-holder span {
+  /* IE10 hack */
+  display: block;
+  -ms-flex: 0 1 auto;
+}
+.homepage-links-holder a,
+.multiple-links-holder{
+    
+    color: white;
+    outline: 0px solid #ccc;
+    transition: .05s outline-width linear;
+}
+.homepage-links-holder a:hover,
+.homepage-links-holder a:focus  {
+    outline-width: 3px;
+    transition: .05s outline-width linear;
+}
+#logo > span,
+.ikon-link > span,
+.welcome-link > span,
+.team-photo-link > span{
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+.agency-link{
+    background-color: #8064a2; 
+}
+.ikon-link{
+    background-image: url(../images/sprites.png);
+    background-position: 0px -104px;
+}
+.multiple-links-holder{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+    display: flex;
+	
+    flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+    
+	justify-content: center;
+    
+	align-content: center;
+    
+	align-items: center;
+        
+    width: 300px;
+    height: 300px;
+    margin: -1px 0;
+    padding:0;
+    list-style: none;
+}
+    .multiple-links-holder a{
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        text-align: center;
+        font-size: 24px;
+        width: 126px;
+        height: 126px;
+        margin: 12px 12px;
+        
+        outline: 0px solid #ccc;
+        transition: .05s outline-width linear;
+    }
+    .multiple-links-holder a:hover,
+    .multiple-links-holder a:focus  {
+        outline-width: 3px;
+        transition: .05s outline-width linear;
+    }
+        .human-konsept-link{
+            margin: 0px 12px 12px 0px;
+        
+            background-color: #1f497d;
+        }
+        .kofc-link{
+            margin: 0px 0px 12px 12px;
+            background-color: #9bbb59;
+        }
+        .philosophy-link{
+            margin: 12px 12px 0px 0px;
+            background-color: #00b0a0;
+        }
+        .shopk2-link{
+            margin: 12px 0px 0px 12px;
+            background-color: #e2901a;
+        }
+.welcome-link{
+    background-image: url(../images/sprites.jpg);
+    background-size: 360px 912px;
+    background-position: -42px -15px;
+}
+.services-link{
+    background-color: #c00000; 
+}
+.team-photo-link{
+    background-image: url(../images/sprites.jpg);
+    background-position: 0px -276px;
+}
