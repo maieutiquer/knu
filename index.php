@@ -17,4 +17,6 @@ require 'helper.php';
 <footer id="footer" role="contentinfo">
 <?php include tmpl_dir.'/footer.php'; ?>
 </footer>
-<?php include tmpl_dir.'/scripts.php';
+<?php
+include tmpl_dir.'/scripts.php';
+include tmpl_dir.'/ga.php';
