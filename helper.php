@@ -88,7 +88,8 @@ if (!$page_title_full) {
 }
 
 // check for inline scripts and add them to scripts declaration
-if ($inlineScripts != '<script>') {
+if ($inlineScripts != '
+<script>') {
   $inlineScripts.= '
 </script>';
   $scripts.= $inlineScripts;
