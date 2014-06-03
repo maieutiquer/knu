@@ -110,11 +110,10 @@ li#nav-kofc {
   .nav-child {
     display: inline;
   }
-  #nav li,
+  #nav > li,
   #nav .nav-child > li {
     display: block;
     width: auto;
-    margin-left: 30px;
     margin: 12px auto;
     text-align: center;
   }
