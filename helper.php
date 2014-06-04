@@ -75,7 +75,7 @@ document.getElementById("inline-popups").style.display = "none";';
   default:
     $included_page = pages_dir.'/home.php';
     $page_title_full = 'agence de communication à Lausanne - konsept';
-    $page_desc = 'Soutien administratif, expertise et conseil dans le domaine de l’habitat.';
+    $page_desc = 'Différence, proximité et engagement sont les valeurs fondamentales de l’agence de communication konsept.';
     break;
 }
 
