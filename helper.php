@@ -76,8 +76,8 @@ document.getElementById("inline-popups").style.display = "none";';
     $page_title_full = 'agence de communication à Lausanne - konsept';
     $page_desc = 'Différence, proximité et engagement sont les valeurs fondamentales de l’agence de communication konsept.';
     break;
-  case 'not-found':
   case '404':
+  case 'not-found':
   default:
     $included_page = pages_dir.'/not-found.php';
     header('HTTP/1.0 404 Not Found');
