@@ -42,3 +42,16 @@ p {
   margin: 11px auto 0;
   width: 900px;
 }
+
+.not-found {
+  margin: 22px 12px 11px;
+  padding: 20px;
+  background: #fff;
+  font-size: 22px;
+}
+.not-found > p:first-of-type {
+  margin-bottom: 10px;
+}
+.goto-home-404 {
+  font-weight: bold;
+}
