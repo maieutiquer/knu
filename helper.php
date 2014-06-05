@@ -10,6 +10,7 @@ $page_title = null;
 $page_title_full = null;
 $page_desc = null;
 $page = filter_input(INPUT_GET, 'page', FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+$page_url = ' /'.$page;
 
 $scripts = '';
 $inlineScripts = '
@@ -78,6 +79,9 @@ document.getElementById("inline-popups").style.display = "none";';
     break;
   case '404':
   case 'not-found':
+    $included_page = pages_dir.'/not-found.php';
+    header('HTTP/1.0 404 Not Found');
+    $page_url='';
   default:
     $included_page = pages_dir.'/not-found.php';
     header('HTTP/1.0 404 Not Found');
