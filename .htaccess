@@ -18,6 +18,8 @@ SetOutputFilter DEFLATE
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{THE_REQUEST} \s(.+?)/+[?\s]
+RewriteRule ^(.+?)/$ /$1 [R=301,L]
 RewriteRule ^([^/.]+)/?$ index.php?page=$1 [L,NC,QSA]
 
 ErrorDocument 404 /knu/?page=not-found
