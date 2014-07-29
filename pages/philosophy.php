@@ -1,5 +1,5 @@
 <?php defined('kexec') or die('Restricted access'); ?>
-<section class="philosophy-page">
+<div class="philosophy-page">
 <article class="konseptnu">
   <span class="konseptnu-logo"></span>
   <div class="konseptnu-desc">
@@ -30,4 +30,4 @@ Ainsi, l’association humanitaire <strong>konsept of Charity</strong> est basé
 Concrètement, cela signifie que chaque franc versé est converti en aide, tous les frais de fonctionnement sont pris en charge par l’agence <strong>konsept</strong> sàrl.
   </div>
 </article>
-</section>
+</div>
