@@ -2,7 +2,7 @@
 const kexec = 1;
 require 'helper.php';
 ?>
-<!DOCTYPE html>
+<!doctype html>
 
 <?php include tmpl_dir.'/head.php'; ?>
 
