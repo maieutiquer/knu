@@ -20,5 +20,5 @@
 </address>
 <ul id="social-icons">
   <li><a id="linkedin-icon" href="http://www.linkedin.com/company/2744514?trk=tyah&amp;trkInfo=tas%3Akonsept" target="_blank" class="social-icon"></a>
-  <li><a id="facebook-icon" href="https://www.facebook.com/konsept.nu" target="_blank" class="social-icon"></a>
+  <li><a id="facebook-icon" href="https://www.facebook.com/konsept.ch" target="_blank" class="social-icon"></a>
 </ul>
