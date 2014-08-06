@@ -26,6 +26,28 @@ $includePopup = '
 <script src="js/jquery.colorbox-min.js"></script>
 <script src="js/popup.js"></script>';
 
+$includeAdwords = '
+<!-- Google Code for konsept.ch/equipe Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 967650361;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "LQdbCOf0igkQudi0zQM";
+var google_conversion_value = 1.00;
+var google_remarketing_only = false;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/967650361/?value=1.00&amp;label=LQdbCOf0igkQudi0zQM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+';
+
 // initialize menu css classes
 $nav_agency_class = '';
 $nav_references_class = '';
@@ -64,6 +86,7 @@ document.getElementById("inline-popups").style.display = "none";';
     $included_page = pages_dir.'/team.php';
     $nav_team_class = 'active';
     $page_title = 'équipe';
+    $scripts.= $includeAdwords;
     break;
   case 'philosophie':
   case 'philosophy':
