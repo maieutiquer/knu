@@ -6,6 +6,10 @@
 <img class="vernissage-plume-et-pinceau" src="images/media/vernissage-plume-et-pinceau.png" alt="vernissage plume et pinceau">
 
 <div class="media-element">
+  <a href="images/media/kc14_031_00.png"><img class="media-holder" src="images/media/thumbs_kc14_031_00.jpg" alt="media-holder"></a>
+</div>
+
+<div class="media-element">
   <a href="images/media/kc14_031_01.jpg"><img class="media-holder" src="images/media/thumbs_kc14_031_01.jpg" alt="media-holder"></a>
 </div>
 
