@@ -23,7 +23,9 @@
 }
 
 @media screen and (max-width: 924px) {
-
+  .media-page > img {
+    max-width: 100%;
+  }
 }
 @media screen and (max-width: 924px) and (min-width: 625px) {
 

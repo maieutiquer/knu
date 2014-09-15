@@ -6,7 +6,8 @@
   }
   #footer,
   #address {
-    width: 626px;
+    /*width: 626px;*/
+    width: 576px;
   }
   #slogan-holder {
     padding: 20px 0;
