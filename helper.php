@@ -97,6 +97,10 @@ document.getElementById("inline-popups").style.display = "none";';
     $included_page = pages_dir.'/philosophy.php';
     $nav_philosophy_class = 'active';
     break;
+  case 'media':
+  case 'média':
+    $included_page = pages_dir.'/media.php';
+    break;
   case 'accueil':
   case 'home':
   case null:

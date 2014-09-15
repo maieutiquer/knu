@@ -22,7 +22,8 @@ class VirtualDirectory
         $this->num_of_real_directories = count($this->real_directories);
         $this->virtual_directories = array_diff($this->cleanUp(explode("/", str_replace($this->thisfile, "", $_SERVER['REQUEST_URI']))),$this->real_directories);
         $this->num_of_virtual_directories = count($this->virtual_directories);
-        $this->baseURL = $this->site . "/" . implode("/", $this->real_directories) . "/";
+        //$this->baseURL = $this->site . "/" . implode("/", $this->real_directories) . "/";
+        $this->baseURL = $this->site . "/" . implode("/", $this->real_directories) . "";
         $this->thisURL = $this->baseURL . implode("/", $this->virtual_directories) . "/";
     }
 
