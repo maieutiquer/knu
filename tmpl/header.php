@@ -1,7 +1,7 @@
 <?php defined('kexec') or die('Restricted access'); ?>
 <div id="header-inner">
   <div id="logo">
-    <a href="http://konsept.ch/" itemprop="url"><img alt="konsept, agence de communication, Lausanne" src="images/logo.png" width="276" height="104" itemprop="logo"></a>
+    <a href="<?=$baseUrl?>" itemprop="url"><img alt="konsept, agence de communication, Lausanne" src="<?=$baseUrl?>images/logo.png" width="276" height="104" itemprop="logo"></a>
     <p>agence de communication
   </div>
 <?php

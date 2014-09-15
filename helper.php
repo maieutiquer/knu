@@ -2,6 +2,10 @@
 const tmpl_dir = 'tmpl';
 const pages_dir = 'pages';
 
+include 'virdir.php';
+$virdir = new VirtualDirectory();
+$baseUrl = $virdir->baseURL;
+
 // TODO: separate css per page
 
 // declare page title and description
