@@ -41,4 +41,8 @@
   <a href="images/media/kc14_031_08.jpg"><img class="media-holder" src="images/media/thumbs_kc14_031_08.jpg" alt="media-holder"></a>
 </div>
 
+<div class="media-element">
+  <a href="images/media/visuels-pp_media-01.jpg"><img class="media-holder" src="images/media/visuels-pp_media-thumbs01.jpg" alt="media-holder"></a>
+</div>
+
 </div>
