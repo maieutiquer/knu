@@ -6,6 +6,7 @@
 .media-page > img {
   display: block;
   max-width: 426px;
+  max-height: 269px;
   margin: 11px 12px;
 }
 
@@ -27,11 +28,15 @@
 @media screen and (max-width: 924px) {
   .media-page > img {
     max-width: 100%;
+    max-height: 365px;
   }
 }
 @media screen and (max-width: 924px) and (min-width: 625px) {
 
 }
 @media screen and (max-width: 624px) {
-
+  .media-page > img {
+    max-width: 276px;
+    max-height: 190px;
+  }
 }
