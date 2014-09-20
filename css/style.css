@@ -1,11 +1,11 @@
 
 @font-face {
   font-family: 'eras light';
-  src: url(../fonts/eraslght.woff);
+  src: url(../fonts/eraslght.otf);
 }
 @font-face {
   font-family: 'eras demi';
-  src: url(../fonts/erasdemi.woff);
+  src: url(../fonts/erasdemi.otf);
 }
 
 html {
