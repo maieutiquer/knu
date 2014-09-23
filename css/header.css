@@ -8,6 +8,8 @@
   box-shadow: 0 1px 14px #888;
 }
   #header-inner {
+    position: relative;
+
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -33,6 +35,15 @@
     width: 876px;
     min-height: 204px;
   }
+.lang-switcher {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  z-index: 2;
+}
+.lang-switcher a {
+  padding: 16px;
+}
 #logo {
   z-index: 2;
   padding-top: 42px;
