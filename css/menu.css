@@ -15,7 +15,7 @@
   #nav > li{
     display: inline-block;
     vertical-align: top;
-    margin-left: 30px;
+    margin-left: 29px;
     text-align: center;
   }
   #nav > li:hover > a,
@@ -68,13 +68,14 @@
         color: #e2901a;
     }
 #nav-shopk2 {
-  width: 57px;
+  width: 60px;
 }
   #nav-kofc:hover{
     color: #9bbb59;
   }
 li#nav-kofc {
   width: 70px;
+  height: 36px;
   text-align: left;
 }
   #nav-philosophy:hover,
