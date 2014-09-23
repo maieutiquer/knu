@@ -134,3 +134,11 @@ if ($inlineScripts != '
 </script>';
   $scripts.= $inlineScripts;
 }
+
+function changeLangUrl($lang) {
+  $virdir = new VirtualDirectory();
+  $baseUrl = $virdir->baseURL;
+  $page = filter_input(INPUT_GET, 'page', FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+  $result = substr($baseUrl, 0, count($baseUrl)-3) . $lang .'/'. $page;
+  return $result;
+}
