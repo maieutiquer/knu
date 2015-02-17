@@ -72,6 +72,9 @@
 #postal-address{
   display: block;
 }
+.pinterest-button-holder {
+  padding: 0 12px 0 0;
+}
 #social-icons{
   display: -moz-box;
   display: -ms-flexbox;
@@ -93,7 +96,7 @@
   list-style: none;
 }
 #linkedin-icon {
-  display: block; 
+  display: block;
   width: 24px;
   height: 24px;
   background-image: url(../images/sprites.png);
@@ -104,8 +107,8 @@
 #linkedin-icon:hover {
   background-position: -24px 24px;
 }
-#facebook-icon {    
-  display: block; 
+#facebook-icon {
+  display: block;
   width: 24px;
   height: 24px;
   background-image: url(../images/sprites.png);
@@ -165,7 +168,7 @@
     display: none;
   }
   #postal-address .sep:nth-of-type(2) {
-    display: inline;    
+    display: inline;
     padding: 0 2px;
   }
   #address > span:not(.sep) {

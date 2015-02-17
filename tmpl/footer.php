@@ -19,6 +19,8 @@
   <a id="site-email-footer" itemprop="email" href="mailto:info@konsept.ch">info@konsept.ch</a>
 </address>
 <ul id="social-icons">
+  <li class="pinterest-button-holder"><a data-pin-do="buttonFollow" href="http://fr.pinterest.com/agencekonsept/">Agence konsept</a>
+    <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
   <li><a id="linkedin-icon" href="http://www.linkedin.com/company/2744514?trk=tyah&amp;trkInfo=tas%3Akonsept" target="_blank" class="social-icon"></a>
   <li><a id="facebook-icon" href="https://www.facebook.com/konsept.ch" target="_blank" class="social-icon"></a>
 </ul>
