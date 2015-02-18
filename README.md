@@ -1,3 +1,3 @@
-[See latest version](http://maieutiquer.com/s/konsept/)
+[See latest version](http://plam.ch/konsept/agence/knu/)
 
-![knu.png](https://bitbucket.org/repo/9M468q/images/767593802-knu.png)
+![knu.png](http://plam.ch/konsept/agence/knu/images/logo.png)
